@@ -1,0 +1,6 @@
+CREATE USER [AdminUser01@dailybackup03192026.onmicrosoft.com]
+    WITH SID = 0x1E82ADD744CD964A8A73EBC7CE2049F8, TYPE = E;
+
+
+GO
+

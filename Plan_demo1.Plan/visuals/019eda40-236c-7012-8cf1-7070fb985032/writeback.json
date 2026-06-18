@@ -1,0 +1,1 @@
+{"writebackType":2,"writebackFilter":{"type":"none"},"excludedMeasureGuids":[],"isAutoWritebackEnabled":20,"autoWbEnabledScenarioIds":[],"debounce":{"duration":5,"isDebounceEnabled":10},"isSnapshotWbEnabled":20,"wbTableColumnMapping":{},"numberPrecision":{"decimal":2},"stringColumnLength":{"type":1,"length":"512"},"writebackAsHTML":false}
