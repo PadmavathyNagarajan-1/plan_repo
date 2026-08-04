@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/valueSet/1.0.0/schema.json",
+  "name": "Alternate",
+  "variableOverrides": [
+    {
+      "name": "Variable_Connection",
+      "value": {
+        "connectionId": "14914193-5379-4043-bd39-769471b57e7f"
+      }
+    }
+  ]
+}

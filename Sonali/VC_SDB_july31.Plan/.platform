@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Plan",
+    "displayName": "VC_SDB_july31"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c17234de-bcd3-419b-916e-730dd8cc9776"
+  }
+}

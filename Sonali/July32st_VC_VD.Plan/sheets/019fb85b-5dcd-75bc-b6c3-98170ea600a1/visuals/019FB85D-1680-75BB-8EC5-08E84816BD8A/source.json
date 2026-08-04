@@ -1,0 +1,1 @@
+{"connectionId":null,"dbName":null,"dbHost":null,"tableName":"VC_VDB","schemaName":"dbo","connectionIdVariable":"$(/**/Variables_2/Variable_Connection)","databaseVariable":"$(/**/Variables_1/DB_2)","recordGuid":"EBC90AC7-E38C-F111-B337-6045BD6E574E","tableType":1,"meta":{"totalRows":5000,"lastRowCountUpdatedAt":1785504673},"creationMode":3,"fileImportType":null}

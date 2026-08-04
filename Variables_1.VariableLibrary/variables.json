@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "PT_Connection_1",
+      "note": "",
+      "type": "ConnectionReference",
+      "value": {
+        "connectionId": "fd4c0bee-0317-4540-9350-3aa25920134f"
+      }
+    },
+    {
+      "name": "DB_2",
+      "note": "",
+      "type": "ItemReference",
+      "value": {
+        "itemId": "b57f2b1c-2959-4ae1-be06-880c0dee62c2",
+        "workspaceId": "a5468391-2c27-43e7-880c-dd1e25f8f2fc"
+      }
+    }
+  ]
+}

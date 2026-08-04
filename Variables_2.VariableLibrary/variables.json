@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "Variable_Connection",
+      "note": "",
+      "type": "ConnectionReference",
+      "value": {
+        "connectionId": "0e355be1-7445-4cb8-a895-9421d41bdf99"
+      }
+    }
+  ]
+}

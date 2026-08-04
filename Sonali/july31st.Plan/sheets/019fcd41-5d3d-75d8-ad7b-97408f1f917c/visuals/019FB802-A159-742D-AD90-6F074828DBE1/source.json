@@ -1,0 +1,1 @@
+{"connectionId":"58300d08-52c9-4510-b43a-114957bbc5e2","dbName":null,"dbHost":null,"tableName":"SC_VDB_employee_july31","schemaName":"dbo","connectionIdVariable":null,"databaseVariable":"$(/**/Variables_1/DB_2)","recordGuid":"384C8FF9-D58C-F111-B337-6045BD6E574E","tableType":1,"meta":{"totalRows":5000,"lastRowCountUpdatedAt":1785855104},"creationMode":3,"fileImportType":null}
