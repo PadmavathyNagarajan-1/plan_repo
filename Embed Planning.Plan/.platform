@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Plan",
+    "displayName": "Embed Planning"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fba84ca1-8835-4ba0-9931-dc3be1b3a67b"
+  }
+}
