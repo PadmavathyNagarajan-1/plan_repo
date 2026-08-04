@@ -1,6 +1,0 @@
-CREATE USER [AdminUser01@francecentral06082026.onmicrosoft.com]
-    WITH SID = 0x6D64EB89D0933C4D86C224908C4CD0B6, TYPE = E;
-
-
-GO
-
