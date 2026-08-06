@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "New Variance Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "66167eae-175c-b86c-41bb-d549ce865276"
+  }
+}
