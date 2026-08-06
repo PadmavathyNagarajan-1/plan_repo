@@ -1,0 +1,6 @@
+CREATE USER [AdminUser01@msitprimary05192026.onmicrosoft.com]
+    WITH SID = 0xA761CFD86BAB2049A461241954E35F4D, TYPE = E;
+
+
+GO
+
