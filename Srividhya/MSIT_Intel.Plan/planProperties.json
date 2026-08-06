@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PlanProperties/1.0.0/schema.json",
+  "properties": {
+    "dataStreamerConfig": {
+      "enabled": false
+    },
+    "drillThroughConfig": {},
+    "entityAdditionalProps": {},
+    "favoriteCharts": [],
+    "pageGroupingMeta": {
+      "pageGroupMapping": {},
+      "pageGroups": []
+    },
+    "reportPageTooltipEntities": [],
+    "syncSlicerConfig": [],
+    "syncVisualsState": {},
+    "theme": {
+      "appliedThemes": {
+        "1": {
+          "id": "aba985cb5d814273",
+          "type": 2
+        }
+      },
+      "id": "aba985cb5d814273",
+      "type": 2
+    },
+    "workloadLevelFilterAssignments": [],
+    "workloadLevelQueryFilterAssignments": [],
+    "workloadLevelVariables": [],
+    "workloadModeConfig": {
+      "EDIT": {
+        "showBookmarksPane": false,
+        "showCommentsPane": false,
+        "showDataPane": true,
+        "showElementsPane": true,
+        "showFieldsPane": true,
+        "showFilterPane": true,
+        "showPersonalizePane": false,
+        "showVariablesPane": false
+      },
+      "READ": {
+        "showBookmarksPane": false,
+        "showCommentsPane": false,
+        "showDataPane": false,
+        "showFilterPane": true,
+        "showPersonalizePane": false,
+        "showVariablesPane": false
+      }
+    },
+    "workloadUserPreferences": [
+      {
+        "attribute": "customThemes",
+        "entityId": "e0da016e-d0c5-4d9e-8ca3-328ac6a61a9f",
+        "entityType": 10,
+        "userId": "d8cf61a7-ab6b-4920-a461-241954e35f4d",
+        "value": "[{\"label\":\"Light 1\",\"themeType\":2,\"theme\":{\"colors\":{\"primaryColors\":[\"#8ce8e2ff\",\"#d353edff\",\"#FD625E\",\"#F1C80E\",\"#606B6D\",\"#A1CFDE\",\"#FF9666\",\"#A7699A\"],\"structuralColors\":{\"outline1\":\"#e13f3fff\",\"outline2\":\"#E0E0E0\",\"background\":\"#d5a9ebff\",\"accent\":\"#50A3F0\",\"icon\":\"#242424\",\"subtleFill\":\"#FFFFFF\"},\"semantic\":{\"positive\":\"#16BC10\",\"negative\":\"#F14151\",\"neutral\":\"#B3B3B3\"}},\"page\":{\"canvas\":{\"background\":{\"type\":\"color\",\"color\":\"#f8f3baff\",\"imageUrl\":\"\"},\"border\":{\"color\":\"#dddddd\",\"side\":\"all\",\"width\":0,\"isEnabled\":false},\"cornerRadius\":{\"isCustomCornerRadius\":false,\"isEnabled\":true,\"radiusTopLeft\":0,\"radiusTopRight\":0,\"radiusBottomLeft\":0,\"radiusBottomRight\":0},\"shadow\":{\"color\":\"#0000003f\",\"blur\":8,\"isEnabled\":false,\"placement\":\"outer\",\"side\":\"bottom\",\"width\":0,\"opacity\":100,\"angle\":135,\"distance\":10},\"dimension\":{\"dimensionType\":\"DEFAULT_16_9\",\"width\":1600,\"height\":900},\"showGridLines\":false,\"showVisualGuide\":false},\"wallpaper\":{\"type\":\"color\",\"color\":\"#ffffff\",\"imageUrl\":\"\"}},\"elements\":{\"background\":{\"type\":\"color\",\"color\":\"#FFFFFF\",\"imageUrl\":\"\"},\"border\":{\"color\":\"#dddddd\",\"side\":\"all\",\"width\":0,\"isEnabled\":false},\"cornerRadius\":{\"isCustomCornerRadius\":false,\"isEnabled\":true,\"radiusTopLeft\":0,\"radiusTopRight\":0,\"radiusBottomLeft\":0,\"radiusBottomRight\":0},\"shadow\":{\"color\":\"#0000003f\",\"blur\":8,\"isEnabled\":false,\"placement\":\"outer\",\"side\":\"bottom\",\"width\":0,\"opacity\":100,\"angle\":135,\"distance\":10},\"padding\":{\"leftPadding\":5,\"rightPadding\":5,\"topPadding\":5,\"bottomPadding\":5,\"isCustomPaddingSize\":false,\"isEnabled\":true},\"header\":{\"backgroundColor\":\"#ff9666\",\"borderColor\":\"#1B1B1B\",\"iconColor\":\"#808080\"},\"tooltip\":{\"backgroundColor\":\"#ffffff\",\"color\":\"#d1d1d1\"}},\"typography\":{\"autoFontColor\":false,\"color\":\"#e13f3fff\",\"fontFamily\":\"Segoe UI Semi Bold\",\"fontSize\":17,\"responsiveFontSize\":false}},\"id\":\"aba985cb5d814273\",\"clonedFromThemeType\":0}]"
+      }
+    ]
+  }
+}

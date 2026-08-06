@@ -1,0 +1,325 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Sheets/Sheet/1.0.0/schema.json",
+  "properties": {
+    "assignmentColumnMap": {},
+    "canvasStyle": {
+      "background": {
+        "color": "#f8f3baff",
+        "fillMode": "cover",
+        "imageUrl": "",
+        "isEnabled": true,
+        "opacity": 1,
+        "type": "color",
+        "value": "#f8f3baff"
+      },
+      "border": {
+        "color": "#dddddd",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "dimension": {
+        "elementScalingUnit": "percentage",
+        "height": 900,
+        "type": "DEFAULT_16_9",
+        "width": 1600
+      },
+      "gridLineSettings": {
+        "gridColumns": null,
+        "gridLayoutType": "auto",
+        "gridRows": null,
+        "showGridLines": false,
+        "snapToGrid": false
+      },
+      "isAutoLayoutDisabled": false,
+      "isLocked": false,
+      "mobileCanvas": {
+        "editModeDimension": {
+          "height": 3200,
+          "width": 324
+        },
+        "runtimeDimension": {
+          "height": 3200,
+          "width": 324
+        }
+      },
+      "scrollToZoom": true,
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showSmartGuide": true,
+      "showVisualGuide": false,
+      "verticalAlign": "top",
+      "wallpaper": {
+        "isEnabled": true,
+        "opacity": 1,
+        "value": {
+          "color": "#ffffff",
+          "imageUrl": "",
+          "type": "color"
+        }
+      }
+    },
+    "commentary": {
+      "annotation": {
+        "settings": {
+          "annotationText": {},
+          "hideAllAnnotations": false,
+          "indicator": {
+            "color": "#FFFFFF",
+            "size": 12,
+            "type": "custom"
+          },
+          "style": {
+            "borderAndCorner": {
+              "isEnabled": false
+            },
+            "cornerRadius": {
+              "isCustomCornerRadius": false,
+              "isEnabled": false,
+              "radiusBottomLeft": 0,
+              "radiusBottomRight": 0,
+              "radiusTopLeft": 0,
+              "radiusTopRight": 0
+            },
+            "padding": {
+              "bottom": 0,
+              "isCustomPadding": false,
+              "left": 0,
+              "right": 0,
+              "top": 0
+            },
+            "shadow": {
+              "isEnabled": false
+            }
+          },
+          "title": {}
+        }
+      },
+      "notes": {
+        "enableMarkerMode": false,
+        "markerData": [],
+        "noteOrder": [],
+        "notesMap": {
+          "1": {}
+        },
+        "settings": {
+          "displayStyle": "card",
+          "enable": true,
+          "floatSettings": {
+            "arrowColor": "#616161",
+            "arrowEnd": "arrow",
+            "arrowStyle": "solid",
+            "arrowWidth": 1,
+            "borderColor": "#E0E0E0",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "displayNoteAs": "marker-arrow-text",
+            "dragLineType": "line",
+            "horizontalAlign": "start",
+            "shape": "rect",
+            "verticalAlign": "start"
+          },
+          "footNotes": {
+            "footNoteColumn": 3,
+            "footNoteHeight": 15
+          },
+          "hideAllNotes": false,
+          "indicator": {
+            "color": "#117865",
+            "fontSize": 12,
+            "position": "LEFT",
+            "size": 16,
+            "type": "number"
+          },
+          "marker": {
+            "color": "#117865",
+            "pattern": "solid",
+            "size": 2,
+            "style": "pencil"
+          }
+        }
+      }
+    },
+    "controlPanePosition": "right",
+    "entityLevelVariables": [],
+    "excludedFilterContextAssignments": {},
+    "filterContextUserConfig": {},
+    "filterPanePosition": "RIGHT",
+    "pageLevelFilterAssignments": [
+      {
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": true,
+          "locked": false,
+          "measureFilter": {
+            "maxValue": null,
+            "minValue": null
+          },
+          "measureSearch": true,
+          "name": "City_Name",
+          "selectAll": true,
+          "selectAllState": "UNSELECTED",
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "DIM_04_City[City_Name]",
+              "columnName": "City_Name",
+              "direction": "ASC",
+              "id": "DIM_04_City[City_Name]"
+            }
+          ],
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [
+          {
+            "columnDataType": [
+              "String"
+            ],
+            "columnIds": [
+              "DIM_04_City[City_Name]"
+            ],
+            "columnNames": [
+              "City_Name"
+            ],
+            "columnType": [
+              "Column"
+            ],
+            "dataType": [
+              "string"
+            ],
+            "filterType": "VALUES",
+            "sourceType": [
+              "PowerBI"
+            ],
+            "tableNames": [
+              "DIM_04_City"
+            ],
+            "valuesFilter": [
+              {
+                "id": [
+                  "Bangalore"
+                ],
+                "label": [
+                  "Bangalore"
+                ]
+              },
+              {
+                "id": [
+                  "Beijing"
+                ],
+                "label": [
+                  "Beijing"
+                ]
+              },
+              {
+                "id": [
+                  "Berlin"
+                ],
+                "label": [
+                  "Berlin"
+                ]
+              },
+              {
+                "id": [
+                  "Mumbai"
+                ],
+                "label": [
+                  "Mumbai"
+                ]
+              },
+              {
+                "id": [
+                  "Los Angeles"
+                ],
+                "label": [
+                  "Los Angeles"
+                ]
+              },
+              {
+                "id": [
+                  "Paris"
+                ],
+                "label": [
+                  "Paris"
+                ]
+              },
+              {
+                "id": [
+                  "Vancouver"
+                ],
+                "label": [
+                  "Vancouver"
+                ]
+              }
+            ],
+            "valuesFilterApplicationType": "include"
+          }
+        ],
+        "filterLevel": "page",
+        "id": "filter_1783085288498_wzdstko6o",
+        "pivotAssignments": [
+          {
+            "bucketId": "Category",
+            "columnName": "City_Name",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 11,
+            "formatString": "",
+            "id": "DIM_04_City[City_Name]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "City_Name",
+            "order": 0,
+            "sourceId": "DIM_04_City[City_Name]",
+            "sourceType": "PowerBI",
+            "tableName": "DIM_04_City"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "sourceVisualsMeta": {},
+    "topPositionFilterExpandConfig": {
+      "expandedHeight": 250,
+      "isFilterPaneCollapsed": true
+    },
+    "visualGroupMap": {
+      "00p08mr4z10xx": {
+        "isExpanded": false,
+        "isHidden": false,
+        "name": "Group 1"
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 6602479,
+    "connectionId": "7f207912-8d9c-4658-90cf-c568daf3b40e",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 6602479,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "019f2825-a206-778a-9857-f44cc64bcf25",
+    "semanticModelId": "e0da016e-d0c5-4d9e-8ca3-328ac6a61a9f",
+    "semanticModelName": "SM_IH_Nov25",
+    "semanticModelWorkspaceId": "9643c1c1-7cf5-4745-9f03-53dccd8b477c",
+    "semanticModelWorkspaceName": "Automation EPM",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/9643c1c1-7cf5-4745-9f03-53dccd8b477c/datasets/e0da016e-d0c5-4d9e-8ca3-328ac6a61a9f"
+  },
+  "sheets": [
+    {
+      "displayName": "Intelligence 1",
+      "isHidden": false,
+      "recordGuid": "019f2825-cca3-75d8-a65f-0ededfb1dc48",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019f2826-63b8-75da-8a53-bdd519d7d726",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f2828-6c8e-751f-b8c0-9244f3f82cda",
+          "visualType": "SUPER_FILTER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f2829-b5bd-706f-b245-d5c8dc5ece8f",
+          "visualType": "INFORIVER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-24bb-72c8-9a65-4154fde61f92",
+          "visualType": "BOX"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-2882-703f-bbd0-bfdddfb470bd",
+          "visualType": "BI_RUNTIME_INPUT"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-2df3-75cf-86c0-3d9b34e3bd25",
+          "visualType": "BI_TEXT"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-3208-74bd-8059-5c858c7824c2",
+          "visualType": "BI_RUNTIME_INPUT"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-36d8-7487-8c57-00adde3d59c5",
+          "visualType": "BOX"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019f282d-3aea-72bb-99bc-e114607b723e",
+          "visualType": "BI_SHAPE"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "MSIT_Intel"
+}

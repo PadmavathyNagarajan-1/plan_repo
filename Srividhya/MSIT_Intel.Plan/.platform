@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Plan",
+    "displayName": "MSIT_Intel"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ba891a92-ef9e-8cc7-4ed7-ff0999b0531c"
+  }
+}

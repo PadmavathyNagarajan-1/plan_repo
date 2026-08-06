@@ -1,0 +1,833 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "dimension": {
+      "height": 0.44584777777777773,
+      "width": 0.1585578125
+    },
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [
+          "019f282d-24bb-72c8-9a65-4154fde61f92",
+          "019f282d-36d8-7487-8c57-00adde3d59c5"
+        ],
+        "isHidden": false,
+        "name": "Filter"
+      },
+      "order": 4
+    },
+    "pivotAssignments": [
+      {
+        "bucketId": "category",
+        "columnName": "Country_Name",
+        "columnType": "Column",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "String",
+        "distinctValueCount": 6,
+        "formatString": "",
+        "id": "DIM_03_Country[Country_Name]",
+        "isFlatHierarchy": false,
+        "name": "Country_Name",
+        "order": 0,
+        "sourceId": "DIM_03_Country[Country_Name]",
+        "sourceType": "PowerBI",
+        "tableName": "DIM_03_Country"
+      }
+    ],
+    "position": {
+      "x": 0.320764375,
+      "y": 0.016102422222222225
+    },
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [
+      {
+        "bucketId": "category",
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Country_Name",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "DIM_03_Country[Country_Name]",
+              "columnName": "Country_Name",
+              "direction": "ASC",
+              "id": "DIM_03_Country[Country_Name]"
+            }
+          ],
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1783085178592_z4ip5kmqy",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "category",
+            "columnName": "Country_Name",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 6,
+            "formatString": "",
+            "id": "DIM_03_Country[Country_Name]",
+            "isFlatHierarchy": false,
+            "name": "Country_Name",
+            "order": 0,
+            "sourceId": "DIM_03_Country[Country_Name]",
+            "sourceType": "PowerBI",
+            "tableName": "DIM_03_Country"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "visualState": {
+      "categoryCustomizeSettings": {
+        "commonBackgroundColor": "#ffffff",
+        "commonBold": false,
+        "commonFontColor": "#e13f3fff",
+        "commonFontSize": 17,
+        "commonHeaderBackgroundColor": "#FFFFFF",
+        "commonHeaderBold": true,
+        "commonHeaderFontColor": "#e13f3fff",
+        "commonHeaderFontSize": 14,
+        "commonHeaderItalic": false,
+        "commonHeaderUnderline": false,
+        "commonItalic": false,
+        "commonTagBackgroundColor": "#d5a9ebff",
+        "commonTagFontColor": "#e13f3fff",
+        "commonTagFontSize": 17,
+        "commonUnderline": false,
+        "selectedCategory": "all"
+      },
+      "commentsNotes": {
+        "commentsMap": {},
+        "createIndex": 1,
+        "createMode": false,
+        "creationType": "NOTES",
+        "dimension": {
+          "height": 401.263,
+          "width": 253.6925
+        },
+        "globalNoteSettings": {
+          "floatSettings": {
+            "arrowColor": "#616161",
+            "arrowEnd": "arrow",
+            "arrowStyle": "solid",
+            "arrowWidth": 1,
+            "borderColor": "#E0E0E0",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "displayNoteAs": "marker-arrow-text",
+            "dragLineType": "line",
+            "horizontalAlign": "start",
+            "shape": "rect",
+            "verticalAlign": "start"
+          },
+          "footNotes": {
+            "footNoteColumn": 3,
+            "footNoteHeight": 15
+          },
+          "hideAllNotes": false,
+          "indicator": {
+            "color": "#117865",
+            "fontSize": 12,
+            "position": "LEFT",
+            "size": 16,
+            "type": "number"
+          }
+        },
+        "modCommentaryId": "",
+        "notesMap": {},
+        "tempIdMap": {}
+      },
+      "dateSettings": {
+        "autoHideMonth": true,
+        "calendarControlsTextColor": "#e13f3fff",
+        "calendarDateRangeType": "user-defined",
+        "calendarHeaderBackgroundColor": "#FFFFFF",
+        "calendarHeaderBold": false,
+        "calendarHeaderFontColor": "#e13f3fff",
+        "calendarHeaderFontSize": 12,
+        "calendarHeaderItalic": false,
+        "calendarHeaderUnderline": false,
+        "calendarViewType": "monthRangeCalendar",
+        "contextualHeatMap": false,
+        "controlsFontSize": 17,
+        "customDefaultDate": "",
+        "dateIconColor": "#242424",
+        "dateSingleSelectPeriod": "DAYS",
+        "dateSingleSelectPeriodCount": 1,
+        "dateSingleSelectType": "this",
+        "dateSliderType": "Between",
+        "dateTooltip": true,
+        "dateViewType": "dateSlider",
+        "dayFontSize": 17,
+        "dayHeaderBackgroundColor": "#FFFFFF",
+        "dayHeaderColor": "#e13f3fff",
+        "dayModeAscentColor": "#50A3F0",
+        "dayModeBackgroundColor": "#d5a9ebff",
+        "daysBackgroundColor": "#FFFFFF",
+        "daysOff": [
+          "Sat",
+          "Sun"
+        ],
+        "daysOffBackgroundColor": "#d5a9ebff",
+        "daysSpacing": 1,
+        "daysTextColor": "#8ce8e2ff",
+        "defaultDate": "max_date",
+        "defaultDateRangeSelection": "user_defined",
+        "defaultDateRangeValue": 1,
+        "defaultSelectionIncludeThis": false,
+        "disableCalendarFooter": false,
+        "disableDaysTextColor": "#e13f3fff",
+        "displayDates": true,
+        "displayDayName": true,
+        "displayMonth": true,
+        "displayMonthAsNumber": false,
+        "displayMonthCollapse": true,
+        "displayQuarter": false,
+        "displayTodayNavigation": false,
+        "displayWeekAggregation": true,
+        "displayWeekNumber": false,
+        "dragHandleColor": "#d353edff",
+        "drillDownSlider": false,
+        "enableDateRange": true,
+        "enableDateVariance": false,
+        "enableInvalidDateHighlight": false,
+        "enableMinMaxDisplay": false,
+        "enableSliderFixedInterval": false,
+        "enableWeekNumberForWeek": true,
+        "fiscalStartMonth": 0,
+        "fiscalYearMode": 3,
+        "heatMapEnable": true,
+        "heatMapEndColor": "#fdcfb4",
+        "heatMapMidColor1": "#F8E2B0",
+        "heatMapMidColor2": "#EDB5BA",
+        "heatMapStartColor": "#C0ECDD",
+        "holidayBackgroundColor": "#FFFFFF",
+        "holidayFontColor": "#8ce8e2ff",
+        "holidayMeasure": "none",
+        "includeDaysOffInSingleSelect": true,
+        "includeWeekends": false,
+        "insideVariance": false,
+        "invalidDateBackgroundColor": "#FFFFFF",
+        "invalidDateTextColor": "#8ce8e2ff",
+        "italicizeHoliday": false,
+        "italizeInvalidDate": false,
+        "measureFontSize": 10,
+        "measureTooltip": true,
+        "monthBackgroundColor": "#d5a9ebff",
+        "monthCount": 1,
+        "monthFontSize": 17,
+        "monthSingleSelectPeriod": "MONTHS",
+        "monthSingleSelectPeriodCount": 1,
+        "monthSingleSelectType": "this",
+        "monthTextColor": "#e13f3fff",
+        "monthTotalBar": false,
+        "monthTotalBarPosition": "left",
+        "multiDateRangeEnable": false,
+        "numberOfWeeks": 1,
+        "periodSingleSelect": false,
+        "quarterBackgroundColor": "#FFFFFF",
+        "quarterFontSize": 17,
+        "quarterTextColor": "#444444",
+        "rotateLayout": false,
+        "roundedDateContainer": false,
+        "selectedMonthBackgroundColor": "#8ce8e2ff",
+        "selectedMonthTextColor": "#444444",
+        "selectedQuarterBackgroundColor": "#8ce8e2ff",
+        "selectedQuarterTextColor": "#444444",
+        "selectedYearItemBackgroundColor": "#8ce8e2ff",
+        "selectedYearItemTextColor": "#444444",
+        "showCalendarControls": true,
+        "showDateRangeSlider": true,
+        "showSliderFixedInterval": false,
+        "showSliderScale": false,
+        "sliderBold": false,
+        "sliderColor": "#8ce8e2ff",
+        "sliderDefaultMaxDate": "Default",
+        "sliderFixedLabel": true,
+        "sliderFontColor": "#e13f3fff",
+        "sliderFontSize": 17,
+        "sliderItalic": false,
+        "sliderLabelInsideMarker": false,
+        "sliderScaleAxisLabelColor": "#e13f3fff",
+        "sliderUnderline": false,
+        "sliderUnselectedColor": "#E0E0E0",
+        "startDayOfSelection": 0,
+        "startDayOfWeek": 0,
+        "strikeHoliday": true,
+        "strikeInvalidDate": true,
+        "varianceDisplay": "difference",
+        "varianceTooltip": true,
+        "varianceType": "previousPeriod",
+        "weekCalculation": 0,
+        "weekModeBackgroundColor": "#FFFFFF",
+        "weekModeHeaderBackgroundColor": "#FFFFFF",
+        "weekModeHeaderTextColor": "#e13f3fff",
+        "weekModeTextColor": "#e13f3fff",
+        "weekPrefix": "",
+        "yearItemBackgroundColor": "#d5a9ebff",
+        "yearItemTextColor": "#e13f3fff"
+      },
+      "displaySettings": {
+        "LimitDataRowscheckbox": false,
+        "backgroundColorOpacity": 10,
+        "blankLabel": "(Blank)",
+        "bottomDetailView": "",
+        "canvasMessage": true,
+        "categoryTooltip": true,
+        "dateTooltip": true,
+        "daysLocalize": "",
+        "defaultCollapseHier": true,
+        "defaultDateFormat": "auto",
+        "defaultSelectionByMes": "none",
+        "defaultSelectionmes": false,
+        "defaultTimeFormat": "12-hour",
+        "defaultVisualBackground": "#FFFFFF",
+        "displayMeasureValueForDate": true,
+        "displaySelectAll": false,
+        "displaydialogbox": false,
+        "emptyLabel": "(Empty)",
+        "enableCanvasMode": true,
+        "enableDetailView": true,
+        "enableImageData": false,
+        "enablePopupSubtitle": true,
+        "filterIconColor": "#117865",
+        "filterNoData": false,
+        "fontFamily": "Segoe UI Semi Bold",
+        "forcedSelection": false,
+        "globalValueDecimalPlaces": -1,
+        "hideBlank": true,
+        "hoverBackgroundColor": "#dcdcdc",
+        "hoverTextColor": "#444444",
+        "imageFit": "fit",
+        "imageTransparency": 0,
+        "influeneceControl": false,
+        "intervalLocalize": "",
+        "keyBindingIndicator": false,
+        "limitDataRows": "unlimited",
+        "measureTooltip": true,
+        "monthLocalize": "",
+        "multiYearLocalize": "",
+        "nodatafoundLocalize": "",
+        "rangeLocalize": "",
+        "rowPadding": 3,
+        "rtlEnable": false,
+        "searchLocalize": "",
+        "selectAllLabel": "Select All",
+        "selectLocalize": "",
+        "selectedBackgroundColor": "#ffffff",
+        "selectedValueColor": "#444444",
+        "semanticColor1": "#117865",
+        "semanticColor2": "#117865",
+        "showContextSettings": false,
+        "showTooltip": false,
+        "sideDetailView": "",
+        "tableBackgroundColor": "#ffffff",
+        "tableRowHeight": 29,
+        "tableRowSpacing": 3,
+        "theme": "light",
+        "tileImageBackground": false,
+        "tileImageHeight": 50,
+        "tileMeasureLayout": "bottom",
+        "unselectedFilterIconColor": "#ffffff",
+        "varianceTooltip": true,
+        "weekLocalize": "",
+        "yearLocalize": ""
+      },
+      "facetSettings": {
+        "accentColor": "#0078D4",
+        "cardGap": 5,
+        "cascadeFilter": true,
+        "columns": 3,
+        "displayMode": "label",
+        "enableAccentBar": false,
+        "enableAutoSearchSelectInDropdown": true,
+        "enableCategoryBulkCopyPaste": false,
+        "enableCategoryProgressbar": false,
+        "enableCategorySearch": false,
+        "enableDropdownGap": false,
+        "enableFacetMode": false,
+        "enableRoundLabelInDropdown": false,
+        "facetLayout": "vertical",
+        "facetViewType": "checkbox",
+        "fixedColor": false,
+        "horizontalFilterWidth": 200,
+        "influencedAutoSelect": "none",
+        "isColumnResponsive": true,
+        "isKpiExpanded": false,
+        "isTileResponsive": true,
+        "kpiExplorerEnabled": false,
+        "kpiExplorerExpandedMode": false,
+        "kpiExplorerMode": false,
+        "kpiVerticalView": false,
+        "lucideIcon": "Circle",
+        "showCount": true,
+        "showFacetHeader": true,
+        "showSearchBarIcon": true,
+        "showSelectionState": false,
+        "singleSelect": false,
+        "tileBackgroundColor": "#d5a9ebff",
+        "tileGap": 16,
+        "tileHeight": 40,
+        "tileRadius": 18,
+        "tileWidth": 100
+      },
+      "filterContextProperties": {
+        "filterContextDimensions": [
+          "DIM_04_City.City_Name"
+        ],
+        "filterContextHash": "cb71b89e05",
+        "filterContextHashMap": {
+          "cb71b89e05": {
+            "DIM_04_City.City_Name": [
+              "Bangalore",
+              "Beijing",
+              "Berlin",
+              "Mumbai",
+              "Los Angeles",
+              "Paris",
+              "Vancouver"
+            ]
+          }
+        },
+        "filterContextJson": {
+          "DIM_04_City.City_Name": [
+            "Bangalore",
+            "Beijing",
+            "Berlin",
+            "Mumbai",
+            "Los Angeles",
+            "Paris",
+            "Vancouver"
+          ]
+        }
+      },
+      "filterHiddenSettings": {
+        "bulkCopyPasteDelimiter": ",",
+        "categorySelectAllState": {},
+        "customCategoryLabels": {},
+        "customImages": [],
+        "customPresets": [
+          {
+            "isDefault": true,
+            "isHidden": false,
+            "key": "date-TODAY",
+            "label": "Today",
+            "type": "date"
+          },
+          {
+            "isDefault": true,
+            "isHidden": false,
+            "key": "date-YESTERDAY",
+            "label": "Yesterday",
+            "type": "date"
+          },
+          {
+            "isDefault": true,
+            "isHidden": false,
+            "key": "date-min-1-DAYS",
+            "label": "Min Day",
+            "type": "date"
+          },
+          {
+            "isDefault": true,
+            "isHidden": false,
+            "key": "date-max-1-DAYS",
+            "label": "Max Day",
+            "type": "date"
+          },
+          {
+            "isDefault": true,
+            "isHidden": false,
+            "key": "measure-bucket-5",
+            "label": "Measure Classification",
+            "type": "measure"
+          }
+        ],
+        "fabricTheme": {
+          "textColor": "#e13f3fff"
+        },
+        "groupedPresets": [],
+        "isMassMode": false,
+        "isRegistered": true,
+        "isResetAllEnabled": true,
+        "multiDateRangeFilter": [],
+        "periodFilter": [],
+        "savedFilters": {
+          "none": {
+            "id": "none",
+            "isActive": true,
+            "isSaved": true,
+            "label": "None",
+            "mode": "all"
+          }
+        },
+        "selectedDatePreset": [],
+        "selectedPreset": []
+      },
+      "hierarchySettings": {
+        "alternateBackgroundColor": "#d5a9ebff",
+        "alternateRowCustomization": false,
+        "categoryColors": {},
+        "childNodeBold": false,
+        "childNodeColor": "#e13f3fff",
+        "childNodeFontSize": 17,
+        "childNodeItalic": false,
+        "childNodeUnderline": false,
+        "displayChildCount": true,
+        "enableCategoryCustomize": false,
+        "enableContextmenu": false,
+        "enableDropdown": false,
+        "expandCollapseIconType": "arrow",
+        "hierarchyHeaderIcons": true,
+        "hierarchyLevel": 2,
+        "hierarchyTreeViewType": "checkbox",
+        "hierarchyViewType": "tree",
+        "indent": 10,
+        "initialCategoryColors": {},
+        "innerPadding": 2,
+        "leafCountOrChildCount": "leafCount",
+        "leafSingleSelect": false,
+        "maxNodes": 200,
+        "outerPadding": 1,
+        "parentNodeBold": true,
+        "parentNodeColor": "#e13f3fff",
+        "parentNodeFontSize": 14,
+        "parentNodeItalic": false,
+        "parentNodeUnderline": false,
+        "removeSingleChildren": "normal",
+        "rootNodeBold": true,
+        "rootNodeColor": "#e13f3fff",
+        "rootNodeFontSize": 14,
+        "rootNodeItalic": false,
+        "rootNodeUnderline": false,
+        "singleSelect": false,
+        "softSelection": false,
+        "styleby": "canvastheme",
+        "treeMapColor": "https://colors.inforiver.com/?colors=WyIjNEY2REVEIiwiIzAwNzhENCIsIiMwMzgzODciLCIjMTE3ODY1IiwiI0VBQTMwMCIsIiNDRjA1MTUiLCIjRjc2MzBDIiwiI0JGMDA3NyIsIiM1QzJFOTEiLCIjMzg0Q0E4IiwiIzAwNTU5NyIsIiMwMjVENjAiLCIjMDU0RDQzIiwiI0E2NzQwMCIsIiM4QzBCMTYiLCIjQUY0NjA5IiwiIzg4MDA1NCIsIiM0MTIxNjciLCIjODk5Q0YzIiwiIzU0QTVFMiJd",
+        "treeMapLassoType": "inclusive",
+        "treeMapNodeData": false,
+        "treeMapTileType": "square"
+      },
+      "interactionStateSettings": {
+        "filterIconColor": "#ffffff",
+        "hoverBackgroundColor": "#d5a9ebff",
+        "hoverTextColor": "#e13f3fff",
+        "selectedBackgroundColor": "#8ce8e2ff",
+        "selectedFilterIconColor": "#8ce8e2ff",
+        "selectedTileFontColor": "#d5a9ebff",
+        "selectedValueColor": "#e13f3fff"
+      },
+      "locale": "en-US",
+      "measureFilterSettings": {
+        "alphaNumericRegex": "\\d",
+        "dragHandleColor": "#8ce8e2ff",
+        "enableAlphaNumericFilter": false,
+        "enableCategoryLabel": false,
+        "enableMeasureFilter": false,
+        "enableMinMaxDisplay": false,
+        "enableNumericCategorySlider": true,
+        "enableNumericSliderFixedLabel": true,
+        "maxNumericSliderStep": 5,
+        "numericSliderBold": true,
+        "numericSliderColor": "#8ce8e2ff",
+        "numericSliderFontSize": 10,
+        "numericSliderItalic": false,
+        "numericSliderLabelColor": "#e13f3fff",
+        "numericSliderStep": 1,
+        "numericSliderType": "between",
+        "numericSliderUnSelectedColor": "#d5a9ebff",
+        "numericSliderUnderline": false,
+        "presetType": "radio",
+        "showMeasureFilterLabel": false,
+        "showPreset": false,
+        "showSlider": true
+      },
+      "playAxisSettings": {
+        "autoPlay": false,
+        "cumulativeSelection": false,
+        "displayStopButton": true,
+        "enablePlayAxis": false,
+        "loop": false,
+        "pauseColor": "#ffd700",
+        "playAxisBold": false,
+        "playAxisCategory": "DIM_03_Country[Country_Name]",
+        "playAxisItalic": false,
+        "playAxisType": "none",
+        "playAxisUnderLine": false,
+        "playColor": "#117865",
+        "playInterval": 4,
+        "stopColor": "#ff0000"
+      },
+      "presetSettings": {
+        "defaultPresetOptions": "defaultPreset1",
+        "enablePreset": false,
+        "presetBackgroundColor": "#FFFFFF",
+        "presetButtonBorderColor": "#dddddd",
+        "presetButtonColor": "#d5a9ebff",
+        "presetReadMode": false,
+        "presetSelectedBackgroundColor": "#117865",
+        "presetSelectedTextColor": "#ffffff",
+        "presetTextColor": "#e13f3fff",
+        "presetsFontSize": 17,
+        "rotatePreset": false,
+        "verticalPresetBackgroundColor": "#ffffff"
+      },
+      "rankSettings": {
+        "hideOthers": false,
+        "rankDimension": "DIM_03_Country[Country_Name]",
+        "rankEnabled": false,
+        "rankMeasure": "",
+        "rankType": "Top",
+        "rankValue": 5
+      },
+      "slicerFilterAssignments": [
+        {
+          "columnDataType": [
+            "String"
+          ],
+          "columnIds": [
+            "DIM_03_Country[Country_Name]"
+          ],
+          "columnNames": [
+            "Country_Name"
+          ],
+          "columnType": [
+            "Column"
+          ],
+          "dataType": [
+            "string"
+          ],
+          "filterType": "VALUES",
+          "sourceType": [
+            "PowerBI"
+          ],
+          "tableNames": [
+            "DIM_03_Country"
+          ],
+          "valuesFilter": [
+            {
+              "id": [
+                "Canada"
+              ],
+              "label": [
+                "Canada"
+              ]
+            },
+            {
+              "id": [
+                "France"
+              ],
+              "label": [
+                "France"
+              ]
+            },
+            {
+              "id": [
+                "India"
+              ],
+              "label": [
+                "India"
+              ]
+            }
+          ],
+          "valuesFilterApplicationType": "include"
+        }
+      ],
+      "toolbarSettings": {
+        "applyAllFilter": false,
+        "bulkCopyPastePlaceHolderText": "",
+        "bulkCopyPasteTagBackgroundColor": "#d5a9ebff",
+        "bulkCopyPasteTagFontColor": "#e13f3fff",
+        "caseSensitiveSearch": false,
+        "clearSearchAfterSelect": true,
+        "csvPagePlaceholder": "",
+        "customTitleText": "",
+        "enableBulkCopyPaste": false,
+        "enableClearButton": true,
+        "enableRenameButton": false,
+        "enableSearch": false,
+        "floatingToolbar": false,
+        "headerBackgroundColor": "#d5a9ebff",
+        "headerHeight": 30,
+        "massFilterCenterAligned": true,
+        "massFilterPopupHeight": 320,
+        "massFilterPopupWidth": 350,
+        "massFilterXPosition": 100,
+        "massFilterYPosition": 100,
+        "measureSearch": true,
+        "progressBarColor": "#8ce8e2ff",
+        "searchDimension": "DIM_03_Country[Country_Name]",
+        "searchFillColor": "#FFFFFF",
+        "searchFontColor": "#e13f3fff",
+        "searchIconColor": "#e13f3fff",
+        "showFooterIcons": true,
+        "showProgressBar": false,
+        "showSavedFilter": false,
+        "showSearchBarIcon": true,
+        "showTitle": true,
+        "showWildCardInfo": true,
+        "titleAlignment": "left",
+        "titleFontBold": true,
+        "titleFontColor": "#e13f3fff",
+        "titleFontItalic": false,
+        "titleFontSize": 17,
+        "titleFontUnderline": false,
+        "titleLabel": "",
+        "titleTextWrap": false,
+        "toolbarIconColor": "#242424",
+        "toolbarType": "float",
+        "unifiedSearch": false
+      },
+      "visualStyles": {
+        "background": {
+          "backgroundColor": "#FFFFFF",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#dddddd",
+          "isEnabled": false,
+          "side": "all",
+          "width": 0
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "isTooltipEnabled": true,
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "isEnabled": false,
+          "transform": 0
+        },
+        "shadow": {
+          "angle": 135,
+          "blur": 8,
+          "color": "#0000003f",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "bottom",
+          "width": 0
+        },
+        "showHelperTooltips": true,
+        "showSelectedSeriesInTooltip": false,
+        "tooltipPageId": "auto",
+        "tooltipStyle": {
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "fontFamily": "Segoe UI",
+          "fontSize": 12,
+          "italic": false,
+          "labelColor": "#252423",
+          "underline": false,
+          "valueColor": "#252423"
+        },
+        "tooltipType": "default",
+        "varianceInTooltip": true,
+        "varianceTooltipType": "both"
+      }
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "#FFFFFF",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#dddddd",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 5,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 5,
+        "rightPadding": 5,
+        "topPadding": 5
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 60
+  }
+}
