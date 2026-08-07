@@ -1,0 +1,38 @@
+table DIM_03_Country
+	lineageTag: 226eaec1-203b-443e-82d1-8692bb410431
+	sourceLineageTag: [dbo].[DIM_03_Country]
+
+	column Country_Name
+		dataType: string
+		lineageTag: d96e299e-4096-40a5-afb7-cb2870bef5f2
+		sourceLineageTag: Country_Name
+		summarizeBy: none
+		sourceColumn: Country_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country_Code
+		dataType: string
+		lineageTag: a078c011-62fe-4886-beec-091da007bb25
+		sourceLineageTag: Country_Code
+		summarizeBy: none
+		sourceColumn: Country_Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region_Code
+		dataType: string
+		lineageTag: 50fba403-c46b-4a81-a17b-043ef0f5a83e
+		sourceLineageTag: Region_Code
+		summarizeBy: none
+		sourceColumn: Region_Code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DIM_03_Country = entity
+		mode: directLake
+		source
+			entityName: DIM_03_Country
+			schemaName: dbo
+			expressionSource: 'DirectLake - wh_1'
+
