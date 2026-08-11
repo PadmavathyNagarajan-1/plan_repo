@@ -5,7 +5,7 @@
   "sources": [
     {
       "meta": {
-        "columnCount": 8,
+        "columnCount": 7,
         "columns": [],
         "datasetId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
         "datasetName": "Intelsvfabric",
@@ -38,8 +38,7 @@
         "includeMeasures": [
           {
             "alias": "Sum of Gross Sales",
-            "id": "4100344478571254703",
-            "measureGuid": "4100344478571254703",
+            "id": "1",
             "name": "Sum of Gross Sales"
           },
           {
@@ -52,17 +51,6 @@
         "includeScenarios": [],
         "isSkipTotals": false,
         "measures": [
-          {
-            "aggregationType": "sum",
-            "alias": "Sum of Gross Sales",
-            "columnType": "DI",
-            "dataType": "NUMERIC",
-            "id": "4100344478571254703",
-            "isHierarchyColumn": false,
-            "measureGuid": "4100344478571254703",
-            "name": "Sum of Gross Sales",
-            "type": "DOUBLE"
-          },
           {
             "aggregationType": "sum",
             "alias": "Sum of Discounts",
@@ -119,17 +107,6 @@
         "selectedMeasures": [
           {
             "aggregationType": "sum",
-            "alias": "Sum of Gross Sales",
-            "columnType": "DI",
-            "dataType": "NUMERIC",
-            "id": "4100344478571254703",
-            "isHierarchyColumn": false,
-            "measureGuid": "4100344478571254703",
-            "name": "Sum of Gross Sales",
-            "type": "DOUBLE"
-          },
-          {
-            "aggregationType": "sum",
             "alias": "Sum of Discounts",
             "columnType": "DI",
             "dataType": "NUMERIC",
@@ -160,7 +137,7 @@
       "queries": [
         {
           "meta": {
-            "columnCount": 6,
+            "columnCount": 5,
             "columns": [],
             "datasetId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
             "datasetName": "Intelsvfabric",
@@ -194,8 +171,7 @@
             "includeMeasures": [
               {
                 "alias": "Sum of Gross Sales",
-                "id": "4100344478571254703",
-                "measureGuid": "4100344478571254703",
+                "id": "1",
                 "name": "Sum of Gross Sales"
               },
               {
@@ -208,17 +184,6 @@
             "includeScenarios": [],
             "isSkipTotals": false,
             "measures": [
-              {
-                "aggregationType": "sum",
-                "alias": "Sum of Gross Sales",
-                "columnType": "DI",
-                "dataType": "NUMERIC",
-                "id": "4100344478571254703",
-                "isHierarchyColumn": false,
-                "measureGuid": "4100344478571254703",
-                "name": "Sum of Gross Sales",
-                "type": "DOUBLE"
-              },
               {
                 "aggregationType": "sum",
                 "alias": "New Measure",
@@ -264,17 +229,6 @@
               }
             ],
             "selectedMeasures": [
-              {
-                "aggregationType": "sum",
-                "alias": "Sum of Gross Sales",
-                "columnType": "DI",
-                "dataType": "NUMERIC",
-                "id": "4100344478571254703",
-                "isHierarchyColumn": false,
-                "measureGuid": "4100344478571254703",
-                "name": "Sum of Gross Sales",
-                "type": "DOUBLE"
-              },
               {
                 "aggregationType": "sum",
                 "alias": "New Measure",

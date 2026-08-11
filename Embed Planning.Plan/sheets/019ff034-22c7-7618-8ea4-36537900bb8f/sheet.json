@@ -4,8 +4,7 @@
     "assignmentColumnMap": {},
     "canvasStyle": {
       "background": {
-        "color": "#ffffff",
-        "fillMode": "cover",
+        "color": "#FFFFFF",
         "imageUrl": "",
         "isEnabled": true,
         "opacity": 1,
@@ -13,8 +12,8 @@
         "value": "#ffffff"
       },
       "border": {
-        "color": "#d0d0d0",
-        "isEnabled": true,
+        "color": "#DDDDDD",
+        "isEnabled": false,
         "side": "all",
         "width": 0
       },
@@ -55,7 +54,7 @@
       "shadow": {
         "angle": 135,
         "blur": 8,
-        "color": "#000000",
+        "color": "#0000003f",
         "distance": 10,
         "isEnabled": false,
         "opacity": 100,
@@ -67,7 +66,6 @@
       "showVisualGuide": false,
       "verticalAlign": "top",
       "wallpaper": {
-        "fillMode": "cover",
         "isEnabled": true,
         "opacity": 1,
         "value": {
@@ -161,6 +159,7 @@
     "excludedFilterContextAssignments": {},
     "filterContextUserConfig": {},
     "filterPanePosition": "RIGHT",
+    "pageLevelFilterAssignments": [],
     "sourceVisualsMeta": {},
     "topPositionFilterExpandConfig": {
       "expandedHeight": 250,

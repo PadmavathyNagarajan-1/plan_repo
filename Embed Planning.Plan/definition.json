@@ -58,6 +58,19 @@
           "visualType": "ANALYTICS_PLUS"
         }
       ]
+    },
+    {
+      "displayName": "Intelligence 1",
+      "isHidden": false,
+      "recordGuid": "019ff034-22c7-7618-8ea4-36537900bb8f",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019ff034-5152-7269-982f-1d59ceb2270f",
+          "visualType": "ANALYTICS_PLUS"
+        }
+      ]
     }
   ],
   "workloadItemName": "Embed Planning"

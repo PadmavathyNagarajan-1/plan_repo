@@ -6,29 +6,6 @@
       "columnMeta": {
         "data_type": "Number",
         "description": null,
-        "id": "4100344478571254703",
-        "label": "Sum of Gross Sales",
-        "measure_type": {
-          "Native": {
-            "measure_role": "ACMeasure"
-          }
-        },
-        "name": "Sum of Gross Sales"
-      },
-      "dataInputType": 6,
-      "description": null,
-      "measureGuid": "4100344478571254703",
-      "name": "Sum of Gross Sales",
-      "sidecarHydrationLeaseAt": null,
-      "sidecarHydrationStatus": 10,
-      "status": 10,
-      "visualId": "019fc18e-1f18-74fa-bf6d-024c72cfca45"
-    },
-    {
-      "boundToFilterContext": 10,
-      "columnMeta": {
-        "data_type": "Number",
-        "description": null,
         "id": "1654491190568038628",
         "label": "Sum of Discounts",
         "measure_type": {
