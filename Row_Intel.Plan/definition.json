@@ -1,0 +1,132 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 7944,
+    "connectionId": "66363570-8ded-4855-aa9a-a1d80e6236ea",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 7944,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "019fbdde-dbb5-73c7-b4ef-dfee2a2d27ca",
+    "semanticModelId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
+    "semanticModelName": "Intelsvfabric",
+    "semanticModelWorkspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+    "semanticModelWorkspaceName": "standaloneworkspace",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/6a28fbf0-6c3b-40ba-b7fd-2707d704a47c/datasets/e2b9c023-8b19-44ce-8ee0-27546c9ff1ea"
+  },
+  "sheets": [
+    {
+      "displayName": "Chart/KPI/Hbox",
+      "isHidden": false,
+      "recordGuid": "019fbde2-7d40-75ab-b7e2-93d834e0f532",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fbde2-9a96-71a8-93c9-cab3e28970e2",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbde2-f603-762b-9c23-707a4a4bbd1d",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbde3-a8ab-7619-8e90-affd1c8fd987",
+          "visualType": "SUPER_FILTER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdf3-1b69-76e8-869f-0d8bed393cd1",
+          "visualType": "BI_TEXT"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdf3-1eec-77f8-aee7-817c79fbcdf8",
+          "visualType": "BOX"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdf3-2320-74d2-8b4d-351902b06535",
+          "visualType": "BI_SHAPE"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdf3-27f2-767c-aa86-ffddec4d7080",
+          "visualType": "BI_RUNTIME_INPUT"
+        }
+      ]
+    },
+    {
+      "displayName": "Matrix/Table/Gantt",
+      "isHidden": false,
+      "recordGuid": "019fbdf3-807b-716c-ac1c-7fdca6ee80b6",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdf6-d7f3-71e9-b43c-3ca969c9434c",
+          "visualType": "INFORIVER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbdfd-955f-731c-bd27-b32b9d9a6d32",
+          "visualType": "TABLE"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fbe00-2d04-741a-97e6-c3a4e8cf4a45",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc16d-d6a7-76d8-9b32-7df6c4a4c298",
+          "visualType": "SUPER_FILTER"
+        }
+      ]
+    },
+    {
+      "displayName": "Para/CM/FC/Themes",
+      "isHidden": false,
+      "recordGuid": "019fc164-8837-72c9-ba78-bb4ae36dea76",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fc164-bf9d-757f-b463-9bfb8a8e8c8d",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc168-2c75-77e9-a50d-6354186cdcb8",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc168-bc67-76c3-99ec-e1a623efabe4",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc169-4328-76a9-89b8-500d24583562",
+          "visualType": "SUPER_FILTER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc16d-ddc7-72fe-bea9-485c58d5f645",
+          "visualType": "SUPER_FILTER"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "Row_Intel"
+}

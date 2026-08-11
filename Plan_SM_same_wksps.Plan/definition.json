@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 0,
+    "connectionId": "6a7f4b10-3107-4093-ba2f-3efc63dacf17",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 8409,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "019fd543-1304-70f7-8d51-8ca46b52a141",
+    "semanticModelId": "66167eae-175c-b86c-41bb-d549ce865276",
+    "semanticModelName": "New Variance Analysis",
+    "semanticModelWorkspaceId": "00000000-0000-0000-0000-000000000000",
+    "semanticModelWorkspaceName": "WORKSPACE_NAME_PLACEHOLDER",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/datasets/66167eae-175c-b86c-41bb-d549ce865276"
+  },
+  "sheets": [
+    {
+      "displayName": "Planning 1",
+      "isHidden": false,
+      "recordGuid": "019fd543-717c-7588-ace9-e998813cf97e",
+      "sheetType": "PLANNING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fd543-7cf6-7308-9200-97d2f6b02e99",
+          "visualType": "PLANNING"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "Plan_SM_same_wksps"
+}

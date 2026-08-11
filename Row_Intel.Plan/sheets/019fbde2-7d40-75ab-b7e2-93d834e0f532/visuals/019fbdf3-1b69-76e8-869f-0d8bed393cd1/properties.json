@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "advanceLookup": [],
+    "chartType": "COLUMN_VERTICAL",
+    "dimension": {
+      "height": 0.5486822222222223,
+      "width": 0.32583125
+    },
+    "groupMeasureAssignments": [],
+    "groupName": "",
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [
+          "019fbdf3-1eec-77f8-aee7-817c79fbcdf8"
+        ],
+        "isHidden": false,
+        "name": "Text"
+      },
+      "order": 1
+    },
+    "lockAspectRatio": false,
+    "mobileProperties": {},
+    "originEntityId": "1",
+    "pivotAssignments": [],
+    "position": {
+      "x": 0.00375,
+      "y": 0.43963111111111114
+    },
+    "preVisualId": "4",
+    "shapeType": "RECTANGLE",
+    "sortingConfig": [],
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [],
+    "transformMeasure": "none",
+    "visualInteractions": {},
+    "visualState": {
+      "text": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Wandering down the path to the pond had become a daily routine. Even when the weather wasn't cooperating like today with the wind and rain, Jerry still took the morning stroll down the path until he reached the pond. Although there didn't seem to be a particular reason Jerry did this to anyone looking in from the outside, those who knew him well knew exactly what was going on. It could all be traced back to a specific inciden\",\"type\":\"text\",\"version\":1}],\"direction\":null,\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1,\"textFormat\":0,\"textStyle\":\"\"}],\"direction\":null,\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "#FFFFFF",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#999999",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 5,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 5,
+        "rightPadding": 5,
+        "topPadding": 5
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 202
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/ConnectedPlanning/Infobridge/1.0.0/schema.json",
+  "linkedQueries": [],
+  "queryGroups": [],
+  "sources": [
+    {
+      "meta": {
+        "columnCount": 8,
+        "columns": [],
+        "datasetId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
+        "datasetName": "Intelsvfabric",
+        "dateColumns": [
+          {
+            "alias": "DateKey",
+            "isTimeInterval": true,
+            "name": "DateKey"
+          }
+        ],
+        "dateOptions": [],
+        "dimensions": [
+          {
+            "alias": "Product",
+            "id": "Financials[Product]",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "Product",
+            "timeIntervalUnit": null
+          }
+        ],
+        "hierarchyColumns": [
+          {
+            "alias": "cellType",
+            "isTimeInterval": false,
+            "name": "cellType",
+            "timeIntervalUnit": null
+          }
+        ],
+        "includeMeasures": [
+          {
+            "alias": "Sum of Gross Sales",
+            "id": "4100344478571254703",
+            "measureGuid": "4100344478571254703",
+            "name": "Sum of Gross Sales"
+          },
+          {
+            "alias": "New Measure",
+            "id": "8768956517400744122",
+            "measureGuid": "8768956517400744122",
+            "name": "New Measure"
+          }
+        ],
+        "includeScenarios": [],
+        "isSkipTotals": false,
+        "measures": [
+          {
+            "aggregationType": "sum",
+            "alias": "Sum of Gross Sales",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "4100344478571254703",
+            "isHierarchyColumn": false,
+            "measureGuid": "4100344478571254703",
+            "name": "Sum of Gross Sales",
+            "type": "DOUBLE"
+          },
+          {
+            "aggregationType": "sum",
+            "alias": "Sum of Discounts",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "1654491190568038628",
+            "isHierarchyColumn": false,
+            "measureGuid": "1654491190568038628",
+            "name": "Sum of Discounts",
+            "type": "DOUBLE"
+          },
+          {
+            "aggregationType": "sum",
+            "alias": "New Measure",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "8768956517400744122",
+            "isHierarchyColumn": false,
+            "measureGuid": "8768956517400744122",
+            "name": "New Measure",
+            "type": "DOUBLE"
+          }
+        ],
+        "parquetVersion": "v1",
+        "recordCount": 6,
+        "selectedColumns": [],
+        "selectedDateColumns": [
+          {
+            "alias": "DateKey",
+            "dataType": "DATE",
+            "isTimeInterval": true,
+            "name": "DateKey"
+          }
+        ],
+        "selectedDimensions": [
+          {
+            "alias": "Product",
+            "dataType": "TEXT_COLUMN",
+            "id": "Financials[Product]",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "Product",
+            "timeIntervalUnit": null
+          }
+        ],
+        "selectedHierarchyColumns": [
+          {
+            "alias": "cellType",
+            "isTimeInterval": false,
+            "name": "cellType",
+            "timeIntervalUnit": null
+          }
+        ],
+        "selectedMeasures": [
+          {
+            "aggregationType": "sum",
+            "alias": "Sum of Gross Sales",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "4100344478571254703",
+            "isHierarchyColumn": false,
+            "measureGuid": "4100344478571254703",
+            "name": "Sum of Gross Sales",
+            "type": "DOUBLE"
+          },
+          {
+            "aggregationType": "sum",
+            "alias": "Sum of Discounts",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "1654491190568038628",
+            "isHierarchyColumn": false,
+            "measureGuid": "1654491190568038628",
+            "name": "Sum of Discounts",
+            "type": "DOUBLE"
+          },
+          {
+            "aggregationType": "sum",
+            "alias": "New Measure",
+            "columnType": "DI",
+            "dataType": "NUMERIC",
+            "id": "8768956517400744122",
+            "isHierarchyColumn": false,
+            "measureGuid": "8768956517400744122",
+            "name": "New Measure",
+            "type": "DOUBLE"
+          }
+        ],
+        "sourceErrorMessage": "[]",
+        "timeIntervalMapping": [],
+        "workspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+        "workspaceName": "standaloneworkspace"
+      },
+      "name": "Planning 1",
+      "queries": [
+        {
+          "meta": {
+            "columnCount": 6,
+            "columns": [],
+            "datasetId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
+            "datasetName": "Intelsvfabric",
+            "dateColumns": [
+              {
+                "alias": "DateKey",
+                "isTimeInterval": true,
+                "name": "DateKey"
+              }
+            ],
+            "dateOptions": [],
+            "dimensions": [
+              {
+                "alias": "Product",
+                "id": "Financials[Product]",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "Product",
+                "timeIntervalUnit": null
+              }
+            ],
+            "flatData": true,
+            "hierarchyColumns": [
+              {
+                "alias": "cellType",
+                "isTimeInterval": false,
+                "name": "cellType",
+                "timeIntervalUnit": null
+              }
+            ],
+            "includeMeasures": [
+              {
+                "alias": "Sum of Gross Sales",
+                "id": "4100344478571254703",
+                "measureGuid": "4100344478571254703",
+                "name": "Sum of Gross Sales"
+              },
+              {
+                "alias": "New Measure",
+                "id": "8768956517400744122",
+                "measureGuid": "8768956517400744122",
+                "name": "New Measure"
+              }
+            ],
+            "includeScenarios": [],
+            "isSkipTotals": false,
+            "measures": [
+              {
+                "aggregationType": "sum",
+                "alias": "Sum of Gross Sales",
+                "columnType": "DI",
+                "dataType": "NUMERIC",
+                "id": "4100344478571254703",
+                "isHierarchyColumn": false,
+                "measureGuid": "4100344478571254703",
+                "name": "Sum of Gross Sales",
+                "type": "DOUBLE"
+              },
+              {
+                "aggregationType": "sum",
+                "alias": "New Measure",
+                "columnType": "DI",
+                "dataType": "NUMERIC",
+                "id": "8768956517400744122",
+                "isHierarchyColumn": false,
+                "measureGuid": "8768956517400744122",
+                "name": "New Measure",
+                "type": "DOUBLE"
+              }
+            ],
+            "parquetVersion": "v1",
+            "recordCount": 6,
+            "selectedColumns": [],
+            "selectedDateColumns": [
+              {
+                "alias": "DateKey",
+                "dataType": "DATE",
+                "isTimeInterval": true,
+                "name": "DateKey",
+                "type": "DATE"
+              }
+            ],
+            "selectedDimensions": [
+              {
+                "alias": "Product",
+                "dataType": "TEXT_COLUMN",
+                "id": "Financials[Product]",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "Product",
+                "timeIntervalUnit": null,
+                "type": "VARCHAR"
+              }
+            ],
+            "selectedHierarchyColumns": [
+              {
+                "alias": "cellType",
+                "isTimeInterval": false,
+                "name": "cellType",
+                "timeIntervalUnit": null
+              }
+            ],
+            "selectedMeasures": [
+              {
+                "aggregationType": "sum",
+                "alias": "Sum of Gross Sales",
+                "columnType": "DI",
+                "dataType": "NUMERIC",
+                "id": "4100344478571254703",
+                "isHierarchyColumn": false,
+                "measureGuid": "4100344478571254703",
+                "name": "Sum of Gross Sales",
+                "type": "DOUBLE"
+              },
+              {
+                "aggregationType": "sum",
+                "alias": "New Measure",
+                "columnType": "DI",
+                "dataType": "NUMERIC",
+                "id": "8768956517400744122",
+                "isHierarchyColumn": false,
+                "measureGuid": "8768956517400744122",
+                "name": "New Measure",
+                "type": "DOUBLE"
+              }
+            ],
+            "sourceErrorMessage": "[]",
+            "timeIntervalMapping": [],
+            "workspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+            "workspaceName": "standaloneworkspace"
+          },
+          "name": "Query 1 -  Planning 1",
+          "queryGuid": "Qdd0d8ba2b3544d29b9d78b3b15fcecb1",
+          "sourceId": "4497DB14-4B8E-F111-B337-6045BD6C7AD7",
+          "transformationSteps": [
+            {
+              "meta": {
+                "description": "Inforiver data loaded",
+                "name": "Query from Planning 1",
+                "type": 10,
+                "value": {}
+              },
+              "notes": null,
+              "queryId": "Qdd0d8ba2b3544d29b9d78b3b15fcecb1",
+              "stepIndex": 1
+            }
+          ],
+          "type": 10,
+          "visualId": "019FC18E-1F18-74FA-BF6D-024C72CFCA45",
+          "writebackDestinations": [],
+          "writebackSettings": null
+        }
+      ],
+      "sourceGuid": "4497DB14-4B8E-F111-B337-6045BD6C7AD7",
+      "type": 10,
+      "visualId": "019FC18E-1F18-74FA-BF6D-024C72CFCA45"
+    }
+  ],
+  "version": "1.0"
+}

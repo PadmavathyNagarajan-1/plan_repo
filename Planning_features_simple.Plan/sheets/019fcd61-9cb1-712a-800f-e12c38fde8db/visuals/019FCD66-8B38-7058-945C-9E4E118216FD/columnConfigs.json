@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/ColumnConfigs/1.0.0/schema.json",
+  "columnConfigs": [
+    {
+      "allowEdit": 1,
+      "columnGuid": "test_col1",
+      "columnMeta": {
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "isUnique": false,
+          "maxLength": 255,
+          "type": "varchar",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": true,
+        "maximumAllowedLength": "",
+        "resetToDefaultOnRowModify": false,
+        "textFieldColumnType": "Any Value",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "test_col1",
+      "columnType": 1,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 1,
+      "recordGuid": "61C48D88-1990-F111-B337-6045BD6D3407",
+      "visualColumnType": 1
+    },
+    {
+      "allowEdit": 1,
+      "columnGuid": "tets_col2",
+      "columnMeta": {
+        "allowNegative": true,
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": true,
+          "isPrimaryKey": false,
+          "isUnique": false,
+          "maxLength": 4,
+          "type": "int",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": false,
+        "largeNumberAbbrevation": "",
+        "max": "",
+        "min": "",
+        "negativeValueFormat": "-0",
+        "prefix": "",
+        "resetToDefaultOnRowModify": false,
+        "suffix": "",
+        "thousandSeparator": "",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "tets_col2",
+      "columnType": 6,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 0,
+      "recordGuid": "62C48D88-1990-F111-B337-6045BD6D3407",
+      "visualColumnType": 1
+    },
+    {
+      "allowEdit": 1,
+      "columnGuid": "test_col3",
+      "columnMeta": {
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": true,
+          "isPrimaryKey": false,
+          "isUnique": false,
+          "maxLength": 255,
+          "type": "varchar",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": false,
+        "maximumAllowedLength": "",
+        "resetToDefaultOnRowModify": false,
+        "textFieldColumnType": "Any Value",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "test_col3",
+      "columnType": 1,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 0,
+      "recordGuid": "63C48D88-1990-F111-B337-6045BD6D3407",
+      "visualColumnType": 1
+    }
+  ]
+}

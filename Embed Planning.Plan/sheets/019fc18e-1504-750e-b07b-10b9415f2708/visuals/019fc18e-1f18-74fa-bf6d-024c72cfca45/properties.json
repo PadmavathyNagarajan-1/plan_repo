@@ -1,0 +1,607 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "advanceLookup": [],
+    "chartType": "COLUMN_VERTICAL",
+    "dimension": {
+      "height": 0.43923666666666666,
+      "width": 0.32343625000000004
+    },
+    "groupMeasureAssignments": [],
+    "groupName": "",
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [],
+        "isHidden": false,
+        "name": "Planning 1"
+      },
+      "order": 2
+    },
+    "lockAspectRatio": false,
+    "mobileProperties": {},
+    "originEntityId": "1",
+    "pivotAssignments": [
+      {
+        "bucketId": "rows",
+        "columnName": "Product",
+        "columnType": "Column",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "String",
+        "distinctValueCount": 6,
+        "formatString": "",
+        "id": "Financials[Product]",
+        "isFlatHierarchy": false,
+        "name": "Product",
+        "order": 0,
+        "sourceId": "Financials[Product]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      },
+      {
+        "aggregationType": "sum",
+        "bucketId": "ameasure",
+        "columnName": "Gross Sales",
+        "columnType": "Column",
+        "contents": "",
+        "customName": "Sum of Gross Sales",
+        "dataRoleType": "Measure",
+        "dataType": "Int64",
+        "distinctValueCount": 550,
+        "formatString": "0",
+        "id": "Financials[Gross Sales]",
+        "isFlatHierarchy": false,
+        "measureGuid": "4100344478571254703",
+        "name": "Sum of Gross Sales",
+        "order": 0,
+        "sourceId": "Financials[Gross Sales]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      },
+      {
+        "aggregationType": "sum",
+        "bucketId": "ameasure",
+        "columnName": "Discounts",
+        "columnType": "Column",
+        "contents": "",
+        "customName": "Sum of Discounts",
+        "dataRoleType": "Measure",
+        "dataType": "Double",
+        "distinctValueCount": 515,
+        "formatString": "",
+        "id": "Financials[Discounts]",
+        "isFlatHierarchy": false,
+        "measureGuid": "1654491190568038628",
+        "name": "Sum of Discounts",
+        "order": 1,
+        "sourceId": "Financials[Discounts]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      }
+    ],
+    "position": {
+      "x": 0.00498861875,
+      "y": 0.004976844444444445
+    },
+    "shapeType": "RECTANGLE",
+    "sortingConfig": [],
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [
+      {
+        "bucketId": "rows",
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Product",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "Financials[Product]",
+              "columnName": "Product",
+              "direction": "ASC",
+              "id": "Financials[Product]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785658754063_gx6nmqhxu",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Product",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 6,
+            "formatString": "",
+            "id": "Financials[Product]",
+            "isFlatHierarchy": false,
+            "name": "Product",
+            "order": 0,
+            "sourceId": "Financials[Product]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "ameasure",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "advanced",
+          "filterOperator": "between",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Sum of Gross Sales",
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "Financials[Gross Sales]",
+              "columnName": "Gross Sales",
+              "direction": "ASC",
+              "id": "Financials[Gross Sales]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785658756097_6dt3tcsv6",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": true,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Product",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 6,
+            "formatString": "",
+            "id": "Financials[Product]",
+            "isFlatHierarchy": false,
+            "name": "Product",
+            "order": 0,
+            "sourceId": "Financials[Product]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          },
+          {
+            "aggregationType": "sum",
+            "bucketId": "ameasure",
+            "columnName": "Gross Sales",
+            "columnType": "Column",
+            "contents": "",
+            "customName": "Sum of Gross Sales",
+            "dataRoleType": "Measure",
+            "dataType": "Int64",
+            "distinctValueCount": 550,
+            "formatString": "0",
+            "id": "Financials[Gross Sales]",
+            "isFlatHierarchy": false,
+            "name": "Sum of Gross Sales",
+            "order": 0,
+            "sourceId": "Financials[Gross Sales]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "ameasure",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "advanced",
+          "filterOperator": "between",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Sum of Discounts",
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "Financials[Discounts]",
+              "columnName": "Discounts",
+              "direction": "ASC",
+              "id": "Financials[Discounts]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785658757461_bn1vujcae",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": true,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Product",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 6,
+            "formatString": "",
+            "id": "Financials[Product]",
+            "isFlatHierarchy": false,
+            "name": "Product",
+            "order": 0,
+            "sourceId": "Financials[Product]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          },
+          {
+            "aggregationType": "sum",
+            "bucketId": "ameasure",
+            "columnName": "Discounts",
+            "columnType": "Column",
+            "contents": "",
+            "customName": "Sum of Discounts",
+            "dataRoleType": "Measure",
+            "dataType": "Double",
+            "distinctValueCount": 515,
+            "formatString": "",
+            "id": "Financials[Discounts]",
+            "isFlatHierarchy": false,
+            "name": "Sum of Discounts",
+            "order": 1,
+            "sourceId": "Financials[Discounts]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "transformMeasure": "none",
+    "visualInteractions": {},
+    "visualState": {
+      "aggregation_config": {
+        "measure_aggregation": {
+          "8768956517400744122": {
+            "column": "Sum",
+            "row": "Formula"
+          }
+        },
+        "row_dimension_aggregation": {},
+        "row_measure_aggregation": {},
+        "row_member_measure_aggregation": {}
+      },
+      "chartCustomTitle": {
+        "customTitle": {
+          "containerMeta": {
+            "height": 45,
+            "width": 1041
+          },
+          "containerPosition": "top",
+          "elements": [
+            {
+              "align": "left",
+              "background": null,
+              "border": [],
+              "borderColor": "",
+              "borderRadius": "0px",
+              "borderWidth": "1px",
+              "containerBackground": null,
+              "content": "<span class='mention' data-value='{\"id\":\"[fields]\",\"fieldKey\":\"title\",\"key\":\"fields\"}'>[fields]</span><p><span style=\"font-size: 12px;\"><span class='mention' data-value='{\"id\":\"[scaling]\",\"fieldKey\":\"title\",\"key\":\"scaling\"}'>[scaling]</span></span></p>",
+              "dimension": {
+                "height": "30",
+                "width": "150"
+              },
+              "id": "left-col",
+              "layout": {
+                "h": 3,
+                "i": "left-col",
+                "static": false,
+                "w": 32,
+                "x": 0,
+                "y": 0
+              },
+              "marginBottom": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "marginTop": "0px",
+              "position": {
+                "left": 0,
+                "top": 0
+              },
+              "shadowColor": "",
+              "shadowPosition": "",
+              "type": "DEFAULT_TITLE",
+              "verticalAlign": "MIDDLE"
+            }
+          ],
+          "layout": "left-col",
+          "layoutType": "CUSTOM"
+        },
+        "measureTitle": "",
+        "primaryTitle": "",
+        "secondaryTitle": ""
+      },
+      "columnDimensions": [],
+      "filterContextProperties": {
+        "filterContextDimensions": [],
+        "filterContextHash": null,
+        "filterContextHashMap": {},
+        "filterContextJson": {}
+      },
+      "locale": "en-US",
+      "manage_measures": [
+        {
+          "id": "4100344478571254703",
+          "label": "Sum of Gross Sales",
+          "order": 0,
+          "role": "AC",
+          "visible": true
+        },
+        {
+          "id": "1654491190568038628",
+          "label": "Sum of Discounts",
+          "order": 1,
+          "role": "AC",
+          "visible": true
+        },
+        {
+          "id": "8768956517400744122",
+          "label": "New Measure",
+          "order": 2,
+          "role": "",
+          "visible": true
+        }
+      ],
+      "miscellaneous": {
+        "enableFooter": false,
+        "enableReadViewBookmarking": false,
+        "featureFlags": "",
+        "footerText": "inforiver.com",
+        "footerUrl": "https://inforiver.com/",
+        "hideOnReadMode": false,
+        "isUserChangedFooter": false,
+        "pinIcon": "solid",
+        "showInfoRiverLogo": true,
+        "showTooltip": true
+      },
+      "page_config": {
+        "column_break": null,
+        "pagination_type": null,
+        "view": "Browser"
+      },
+      "pagination": {
+        "autoRowCount": "hide",
+        "currentPageNumber": 0,
+        "enable": false,
+        "pageNo": 0,
+        "pageRowCount": 10,
+        "paginationHeight": 20,
+        "view": "browser"
+      },
+      "ranking_config": {
+        "exemptions": {},
+        "others_title": "Others",
+        "rank_rules": [],
+        "show_category_suffix": false,
+        "show_others": true
+      },
+      "rowDimensions": [
+        {
+          "externalKey": "Financials[Product]",
+          "id": "1180983225196339418",
+          "isNative": true,
+          "label": "Product"
+        }
+      ],
+      "toolbar": {
+        "currentTab": "",
+        "enableHoverToolbar": true,
+        "hideDuplicateReportWarning": false,
+        "isPinned": false,
+        "readViewPin": true,
+        "setCanvasResize": false,
+        "showFloatingToolbar": true,
+        "showForecastTab": false,
+        "showMinimalTabEditMode": true,
+        "showMinimalView": true,
+        "showOnHover": false,
+        "showTabContent": true,
+        "toolbarTheme": "light"
+      },
+      "visualStyles": {
+        "background": {
+          "backgroundColor": "#FFFFFF",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#DDDDDD",
+          "isEnabled": false,
+          "side": "all",
+          "width": 1
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "isTooltipEnabled": true,
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "isEnabled": false,
+          "transform": 0
+        },
+        "shadow": {
+          "angle": 135,
+          "blur": 8,
+          "color": "#0000003f",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "bottom",
+          "width": 0
+        },
+        "showHelperTooltips": true,
+        "showSelectedSeriesInTooltip": false,
+        "tooltipPageId": "auto",
+        "tooltipStyle": {
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "fontFamily": "Segoe UI",
+          "fontSize": 12,
+          "italic": false,
+          "labelColor": "#252423",
+          "underline": false,
+          "valueColor": "#252423"
+        },
+        "tooltipType": "default",
+        "varianceInTooltip": true,
+        "varianceTooltipType": "both"
+      }
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "#FFFFFF",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#DDDDDD",
+        "isEnabled": false,
+        "side": "all",
+        "width": 1
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 5,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 5,
+        "rightPadding": 5,
+        "topPadding": 5
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 80
+  }
+}

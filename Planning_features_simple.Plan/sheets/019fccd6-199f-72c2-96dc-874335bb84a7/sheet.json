@@ -1,0 +1,315 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Sheets/Sheet/1.0.0/schema.json",
+  "properties": {
+    "assignmentColumnMap": {},
+    "canvasStyle": {
+      "background": {
+        "color": "#FFFFFF",
+        "imageUrl": "",
+        "isEnabled": true,
+        "opacity": 1,
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "border": {
+        "color": "#DDDDDD",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "dimension": {
+        "elementScalingUnit": "percentage",
+        "height": 900,
+        "type": "DEFAULT_16_9",
+        "width": 1600
+      },
+      "gridLineSettings": {
+        "gridColumns": null,
+        "gridLayoutType": "auto",
+        "gridRows": null,
+        "showGridLines": false,
+        "snapToGrid": false
+      },
+      "isAutoLayoutDisabled": false,
+      "isLocked": false,
+      "mobileCanvas": {
+        "editModeDimension": {
+          "height": 3200,
+          "width": 324
+        },
+        "runtimeDimension": {
+          "height": 900,
+          "width": 324
+        }
+      },
+      "scrollToZoom": true,
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showSmartGuide": true,
+      "showVisualGuide": false,
+      "verticalAlign": "top",
+      "wallpaper": {
+        "isEnabled": true,
+        "opacity": 1,
+        "value": {
+          "color": "#ffffff",
+          "imageUrl": "",
+          "type": "color"
+        }
+      }
+    },
+    "commentary": {
+      "activeBookmarkId": null,
+      "annotation": {
+        "settings": {
+          "annotationText": {},
+          "hideAllAnnotations": false,
+          "indicator": {
+            "color": "#FFFFFF",
+            "size": 12,
+            "type": "custom"
+          },
+          "style": {
+            "borderAndCorner": {
+              "isEnabled": false
+            },
+            "cornerRadius": {
+              "isCustomCornerRadius": false,
+              "isEnabled": false,
+              "radiusBottomLeft": 0,
+              "radiusBottomRight": 0,
+              "radiusTopLeft": 0,
+              "radiusTopRight": 0
+            },
+            "padding": {
+              "bottom": 0,
+              "isCustomPadding": false,
+              "left": 0,
+              "right": 0,
+              "top": 0
+            },
+            "shadow": {
+              "isEnabled": false
+            }
+          },
+          "title": {}
+        }
+      },
+      "notes": {
+        "counter": 1,
+        "enableMarkerMode": false,
+        "markerData": [],
+        "settings": {
+          "displayStyle": "card",
+          "enable": true,
+          "floatSettings": {
+            "arrowColor": "#616161",
+            "arrowEnd": "arrow",
+            "arrowStyle": "solid",
+            "arrowWidth": 1,
+            "borderColor": "#E0E0E0",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "displayNoteAs": "markerText",
+            "dragLineType": "line",
+            "horizontalAlign": "start",
+            "shape": "rect",
+            "verticalAlign": "start"
+          },
+          "footNotes": {
+            "footNoteColumn": 3,
+            "footNoteHeight": 15
+          },
+          "hideAllNotes": false,
+          "indicator": {
+            "color": "#505763",
+            "fontSize": 12,
+            "position": "LEFT",
+            "size": 20,
+            "type": "number"
+          },
+          "marker": {
+            "color": "#117865",
+            "pattern": "solid",
+            "size": 2,
+            "style": "pencil"
+          }
+        }
+      }
+    },
+    "controlPanePosition": "right",
+    "entityLevelVariables": [
+      {
+        "allowDecimalValues": false,
+        "defaultValue": null,
+        "description": "",
+        "id": "CALC_VARIABLE_lvc59",
+        "interfaceType": "input-box",
+        "interval": 1,
+        "label": "rank",
+        "scope": "entity",
+        "showAsPercentage": false,
+        "showAsSlider": false,
+        "showInViewMode": true,
+        "technicalName": "number1",
+        "type": "number",
+        "value": 3
+      }
+    ],
+    "excludedFilterContextAssignments": {
+      "2": []
+    },
+    "filterContextUserConfig": {
+      "2": {
+        "filterContextProps": {
+          "enableFilterContext": true,
+          "items": [
+            {
+              "id": "showFilterContextNotes",
+              "value": true
+            },
+            {
+              "id": "showFilterContextCF",
+              "value": true
+            },
+            {
+              "id": "showTitle",
+              "value": true
+            },
+            {
+              "id": "showMeasureLabel",
+              "value": false
+            }
+          ],
+          "popupId": "filterContextSetting"
+        }
+      }
+    },
+    "filterPanePosition": "RIGHT",
+    "pageLevelFilterAssignments": [
+      {
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": true,
+          "locked": false,
+          "measureFilter": {
+            "maxValue": null,
+            "minValue": null
+          },
+          "measureSearch": true,
+          "name": "ClassName",
+          "selectAll": true,
+          "selectAllState": "UNSELECTED",
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ClassName]",
+              "columnName": "ClassName",
+              "direction": "ASC",
+              "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ClassName]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [
+          {
+            "columnDataType": [
+              "String"
+            ],
+            "columnIds": [
+              "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ClassName]"
+            ],
+            "columnNames": [
+              "ClassName"
+            ],
+            "columnType": [
+              "Hierarchy Level"
+            ],
+            "dataType": [
+              "string"
+            ],
+            "filterType": "VALUES",
+            "sourceType": [
+              "PowerBI"
+            ],
+            "tableNames": [
+              "DimProduct"
+            ],
+            "valuesFilter": [
+              {
+                "id": [
+                  "Deluxe"
+                ],
+                "label": [
+                  "Deluxe"
+                ]
+              }
+            ],
+            "valuesFilterApplicationType": "include"
+          }
+        ],
+        "filterLevel": "page",
+        "id": "filter_1785848296623_m1rhxnz1b",
+        "pivotAssignments": [
+          {
+            "bucketId": "Category",
+            "columnName": "ClassName",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "groupDataType": "Hierarchy",
+            "groupLabel": "[H] Product Hierarchy",
+            "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ClassName]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "ClassName",
+            "order": 0,
+            "sourceId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ClassName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "sourceVisualsMeta": {},
+    "topPositionFilterExpandConfig": {
+      "expandedHeight": 250,
+      "isFilterPaneCollapsed": true
+    },
+    "visualGroupMap": {}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 7944,
+    "connectionId": "66363570-8ded-4855-aa9a-a1d80e6236ea",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 7944,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "019fc180-3b24-760d-95e8-8616e2c8c60e",
+    "semanticModelId": "e2b9c023-8b19-44ce-8ee0-27546c9ff1ea",
+    "semanticModelName": "Intelsvfabric",
+    "semanticModelWorkspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+    "semanticModelWorkspaceName": "standaloneworkspace",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/6a28fbf0-6c3b-40ba-b7fd-2707d704a47c/datasets/e2b9c023-8b19-44ce-8ee0-27546c9ff1ea"
+  },
+  "sheets": [
+    {
+      "displayName": "Intelligence 1",
+      "isHidden": false,
+      "recordGuid": "019fc182-66ae-7634-99fe-f87b12a0bf38",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fc182-80d5-729e-909a-2939c94e1190",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fc185-fda1-758c-9caf-9dfd033b9ab5",
+          "visualType": "ANALYTICS_PLUS"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "FilterContext"
+}

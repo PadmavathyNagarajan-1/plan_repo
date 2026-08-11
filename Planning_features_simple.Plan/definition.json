@@ -1,0 +1,177 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 7892,
+    "connectionId": "6a7f4b10-3107-4093-ba2f-3efc63dacf17",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 7892,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "019fcc98-57d1-7146-9833-92c5ee454d0e",
+    "semanticModelId": "3015d0b0-8492-4269-b30f-fb7d109ad49c",
+    "semanticModelName": "AV_ContosoRetailDW (1)",
+    "semanticModelWorkspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+    "semanticModelWorkspaceName": "standaloneworkspace",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/6a28fbf0-6c3b-40ba-b7fd-2707d704a47c/datasets/3015d0b0-8492-4269-b30f-fb7d109ad49c"
+  },
+  "sheets": [
+    {
+      "displayName": "Planning 1",
+      "isHidden": false,
+      "recordGuid": "019fcc98-e16d-77fe-90d3-43fe06b5ab8e",
+      "sheetType": "PLANNING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fcc98-fbd1-72e5-80eb-ce4b0ebd3e8c",
+          "visualType": "PLANNING"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 1",
+      "isHidden": false,
+      "recordGuid": "019fccd6-199f-72c2-96dc-874335bb84a7",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fccd6-433f-762d-86be-8da74ba62bcb",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccd9-e0a7-7204-ad91-adf3cabe52d3",
+          "visualType": "SUPER_FILTER"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccda-b782-74ce-81b2-4149713929a9",
+          "visualType": "SUPER_FILTER"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 2",
+      "isHidden": false,
+      "recordGuid": "019fccdc-8d97-7609-a2b0-6441322ab861",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fccdc-bc69-72b8-be23-5ef34e35ec51",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccdd-c2b2-75af-9091-1fda77e3df2b",
+          "visualType": "BI_RUNTIME_INPUT"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccde-5da8-7277-b6d5-c70fc34c444f",
+          "visualType": "SUPER_FILTER"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 3",
+      "isHidden": false,
+      "recordGuid": "019fccdf-7813-757c-8c30-b0b0fa1a9a50",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": true,
+          "visualId": "019fcc98-fbd1-72e5-80eb-ce4b0ebd3e8c",
+          "visualType": "PLANNING"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccdf-c0de-7158-90ed-339ca095a674",
+          "visualType": "ANALYTICS_PLUS"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 4",
+      "isHidden": false,
+      "recordGuid": "019fccf2-7306-70a7-b1db-de3a5ef8ee84",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fccf5-1b1e-731c-a8fa-b84359eb1802",
+          "visualType": "TABLE"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fccfb-afd1-73ce-8de2-ea7bf20647f3",
+          "visualType": "INFORIVER"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 5",
+      "isHidden": false,
+      "recordGuid": "019fcd2c-a6f4-7466-a687-d817b0fb5e5c",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd2c-f272-718e-a177-808f295f9e5d",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd31-310b-70d8-b08e-8b4cf2d040e1",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd31-d0b4-76ab-afdc-40b29b47c9be",
+          "visualType": "ANALYTICS_PLUS"
+        }
+      ]
+    },
+    {
+      "displayName": "test_pt_3",
+      "isHidden": false,
+      "recordGuid": "019fcd61-9cb1-712a-800f-e12c38fde8db",
+      "sheetType": "POWERTABLE",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd66-8b38-7058-945c-9e4e118216fd",
+          "visualType": "POWERTABLE"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 6",
+      "isHidden": false,
+      "recordGuid": "019fcd67-03db-772f-84cd-520b19c3c58e",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd67-71ac-770c-b1fd-34d02a086a05",
+          "visualType": "ANALYTICS_PLUS"
+        },
+        {
+          "isEmbedded": false,
+          "visualId": "019fcd68-a6a4-71a5-8e29-406e09dc1ae6",
+          "visualType": "ANALYTICS_PLUS"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "Planning_features_simple"
+}

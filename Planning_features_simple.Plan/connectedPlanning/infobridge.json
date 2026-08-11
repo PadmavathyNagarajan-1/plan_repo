@@ -1,0 +1,204 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/ConnectedPlanning/Infobridge/1.0.0/schema.json",
+  "linkedQueries": [],
+  "queryGroups": [],
+  "sources": [
+    {
+      "meta": {
+        "columnCount": 3,
+        "columns": [],
+        "dateColumns": [],
+        "dimensions": [
+          {
+            "alias": "test_col1",
+            "id": "69f5eef03356902b86a2f390ee28de7796207e1e18cd1edaf6c969c47b703936",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "test_col1",
+            "timeIntervalUnit": null
+          },
+          {
+            "alias": "test_col3",
+            "id": "67b04db5f889a72bbd5675afc4cc731a66a9ab0fedb394fe4b651bd64448236f",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "test_col3",
+            "timeIntervalUnit": null
+          }
+        ],
+        "hierarchyColumns": [],
+        "measures": [
+          {
+            "aggregationType": "sum",
+            "alias": "tets_col2",
+            "columnType": "IB Measure",
+            "dataType": "NUMERIC",
+            "id": "500a68e859b5e0056c22a1df4450251db2ef1d2f3b39c293ef35d2ea5a31f7d2",
+            "name": "tets_col2",
+            "type": "DOUBLE"
+          }
+        ],
+        "parquetVersion": "v1",
+        "recordCount": 3,
+        "selectedColumns": [],
+        "selectedDateColumns": [],
+        "selectedDimensions": [
+          {
+            "alias": "test_col1",
+            "dataType": "TEXT_COLUMN",
+            "id": "69f5eef03356902b86a2f390ee28de7796207e1e18cd1edaf6c969c47b703936",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "test_col1",
+            "timeIntervalUnit": null
+          },
+          {
+            "alias": "test_col3",
+            "dataType": "TEXT_COLUMN",
+            "id": "67b04db5f889a72bbd5675afc4cc731a66a9ab0fedb394fe4b651bd64448236f",
+            "isTimeInterval": false,
+            "level": 0,
+            "name": "test_col3",
+            "timeIntervalUnit": null
+          }
+        ],
+        "selectedHierarchyColumns": [],
+        "selectedMeasures": [
+          {
+            "aggregationType": "sum",
+            "alias": "tets_col2",
+            "columnType": "IB Measure",
+            "dataType": "NUMERIC",
+            "id": "500a68e859b5e0056c22a1df4450251db2ef1d2f3b39c293ef35d2ea5a31f7d2",
+            "name": "tets_col2",
+            "type": "DOUBLE"
+          }
+        ],
+        "source": {
+          "editable": {
+            "mdeDestinationId": "5FC48D88-1990-F111-B337-6045BD6D3407",
+            "mdeSourceId": "5FC48D88-1990-F111-B337-6045BD6D3407",
+            "mdeSuperfilter": null,
+            "mdeTableName": "test_pt_3",
+            "mdeVisualId": "019FCD66-8B38-7058-945C-9E4E118216FD"
+          },
+          "infoBridgeSourceType": 220
+        }
+      },
+      "name": "test_pt_3",
+      "queries": [
+        {
+          "meta": {
+            "columnCount": 3,
+            "columns": [],
+            "dateColumns": [],
+            "dateOptions": [],
+            "dimensions": [
+              {
+                "alias": "test_col1",
+                "id": "69f5eef03356902b86a2f390ee28de7796207e1e18cd1edaf6c969c47b703936",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "test_col1",
+                "timeIntervalUnit": null
+              },
+              {
+                "alias": "test_col3",
+                "id": "67b04db5f889a72bbd5675afc4cc731a66a9ab0fedb394fe4b651bd64448236f",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "test_col3",
+                "timeIntervalUnit": null
+              }
+            ],
+            "flatData": true,
+            "hierarchyColumns": [],
+            "measures": [
+              {
+                "aggregationType": "sum",
+                "alias": "tets_col2",
+                "columnType": "IB Measure",
+                "dataType": "NUMERIC",
+                "id": "500a68e859b5e0056c22a1df4450251db2ef1d2f3b39c293ef35d2ea5a31f7d2",
+                "name": "tets_col2",
+                "type": "DOUBLE"
+              }
+            ],
+            "parquetVersion": "v1",
+            "recordCount": 3,
+            "selectedColumns": [],
+            "selectedDateColumns": [],
+            "selectedDimensions": [
+              {
+                "alias": "test_col1",
+                "dataType": "TEXT_COLUMN",
+                "id": "69f5eef03356902b86a2f390ee28de7796207e1e18cd1edaf6c969c47b703936",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "test_col1",
+                "timeIntervalUnit": null,
+                "type": "VARCHAR"
+              },
+              {
+                "alias": "test_col3",
+                "dataType": "TEXT_COLUMN",
+                "id": "67b04db5f889a72bbd5675afc4cc731a66a9ab0fedb394fe4b651bd64448236f",
+                "isTimeInterval": false,
+                "level": 0,
+                "name": "test_col3",
+                "timeIntervalUnit": null,
+                "type": "VARCHAR"
+              }
+            ],
+            "selectedHierarchyColumns": [],
+            "selectedMeasures": [
+              {
+                "aggregationType": "sum",
+                "alias": "tets_col2",
+                "columnType": "IB Measure",
+                "dataType": "NUMERIC",
+                "id": "500a68e859b5e0056c22a1df4450251db2ef1d2f3b39c293ef35d2ea5a31f7d2",
+                "name": "tets_col2",
+                "type": "DOUBLE"
+              }
+            ],
+            "source": {
+              "editable": {
+                "mdeDestinationId": "5FC48D88-1990-F111-B337-6045BD6D3407",
+                "mdeSourceId": "5FC48D88-1990-F111-B337-6045BD6D3407",
+                "mdeSuperfilter": null,
+                "mdeTableName": "test_pt_3",
+                "mdeVisualId": "019FCD66-8B38-7058-945C-9E4E118216FD"
+              },
+              "infoBridgeSourceType": 220
+            }
+          },
+          "name": "Query 1 - test_pt_3",
+          "queryGuid": "Qada837ed32cd4d1583a039dad4e6efee",
+          "sourceId": "AC647DCC-1990-F111-B337-6045BD6D3407",
+          "transformationSteps": [
+            {
+              "meta": {
+                "description": "Inforiver data loaded",
+                "name": "Query from test_pt_3",
+                "type": 10,
+                "value": {}
+              },
+              "notes": null,
+              "queryId": "Qada837ed32cd4d1583a039dad4e6efee",
+              "stepIndex": 1
+            }
+          ],
+          "type": 220,
+          "visualId": "019FCD66-8B38-7058-945C-9E4E118216FD",
+          "writebackDestinations": [],
+          "writebackSettings": null
+        }
+      ],
+      "sourceGuid": "AC647DCC-1990-F111-B337-6045BD6D3407",
+      "type": 220,
+      "visualId": "019FCD66-8B38-7058-945C-9E4E118216FD"
+    }
+  ],
+  "version": "1.0"
+}

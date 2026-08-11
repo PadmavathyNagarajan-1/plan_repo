@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/DataInput/1.0.0/schema.json",
+  "columns": [
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Number",
+        "description": null,
+        "id": "4100344478571254703",
+        "label": "Sum of Gross Sales",
+        "measure_type": {
+          "Native": {
+            "measure_role": "ACMeasure"
+          }
+        },
+        "name": "Sum of Gross Sales"
+      },
+      "dataInputType": 6,
+      "description": null,
+      "measureGuid": "4100344478571254703",
+      "name": "Sum of Gross Sales",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "019fc18e-1f18-74fa-bf6d-024c72cfca45"
+    },
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Number",
+        "description": null,
+        "id": "1654491190568038628",
+        "label": "Sum of Discounts",
+        "measure_type": {
+          "Native": {
+            "measure_role": "ACMeasure"
+          }
+        },
+        "name": "Sum of Discounts"
+      },
+      "dataInputType": 6,
+      "description": null,
+      "measureGuid": "1654491190568038628",
+      "name": "Sum of Discounts",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "019fc18e-1f18-74fa-bf6d-024c72cfca45"
+    },
+    {
+      "boundToFilterContext": 20,
+      "columnMeta": {
+        "data_type": "Number",
+        "description": "",
+        "id": "8768956517400744122",
+        "label": "New Measure",
+        "measure_type": {
+          "Formula": {
+            "formula": "M_1654491190568038628/2"
+          }
+        }
+      },
+      "dataInputType": 6,
+      "description": null,
+      "measureGuid": "8768956517400744122",
+      "name": "New Measure",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "019fc18e-1f18-74fa-bf6d-024c72cfca45"
+    }
+  ]
+}

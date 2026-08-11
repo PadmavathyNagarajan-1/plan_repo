@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Plan",
+    "displayName": "Plan_SM_same_wksps"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "eba8dc10-7e1d-9d71-46d0-95eb5b43c211"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "advanceLookup": [],
+    "chartType": "COLUMN_VERTICAL",
+    "dimension": {
+      "height": 0.5486822222222223,
+      "width": 0.32583125
+    },
+    "groupMeasureAssignments": [],
+    "groupName": "",
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [
+          "019fbdf3-1eec-77f8-aee7-817c79fbcdf8"
+        ],
+        "isHidden": false,
+        "name": "Circle"
+      },
+      "order": 3
+    },
+    "lockAspectRatio": false,
+    "mobileProperties": {},
+    "originEntityId": "1",
+    "pivotAssignments": [],
+    "position": {
+      "x": 0.6654125000000001,
+      "y": 0.43963111111111114
+    },
+    "preVisualId": "6",
+    "shapeType": "CIRCLE",
+    "sortingConfig": [],
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [],
+    "transformMeasure": "none",
+    "visualInteractions": {},
+    "visualState": {
+      "shapeState": {
+        "accentBar": {
+          "isEnabled": false,
+          "value": {
+            "color": "#252423",
+            "side": "left",
+            "width": 2
+          }
+        },
+        "action": {
+          "actionType": "NONE",
+          "bookmarkId": null,
+          "isEnabled": false,
+          "pageDestinationId": null,
+          "webUrl": null
+        },
+        "arrow": {
+          "direction": "right",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#D0D0D0",
+          "isEnabled": true,
+          "side": "all",
+          "style": "solid",
+          "width": 1
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "fill": {
+          "fillColor": "#F7F7F7",
+          "isEnabled": true
+        },
+        "glow": {
+          "blur": 10,
+          "color": "#F7DE6E",
+          "isEnabled": false,
+          "opacity": 100
+        },
+        "icon": {
+          "color": "#000",
+          "customIconScale": "fit",
+          "gap": 4,
+          "horizontalAlign": "center",
+          "iconRotation": 0,
+          "iconTypeMapping": {
+            "default": {
+              "customIcon": {
+                "isEnabled": false,
+                "name": ""
+              },
+              "src": ""
+            }
+          },
+          "isEnabled": false,
+          "padding": {
+            "bottomPadding": 4,
+            "isCustomPaddingSize": false,
+            "isEnabled": true,
+            "leftPadding": 4,
+            "rightPadding": 4,
+            "topPadding": 4
+          },
+          "placement": "custom",
+          "size": 30,
+          "transparency": 100,
+          "verticalAlign": "middle",
+          "weight": 1
+        },
+        "initialShapeType": {
+          "isEnabled": true,
+          "type": "CIRCLE"
+        },
+        "line": {
+          "edgeCap": "normal",
+          "isEnabled": true,
+          "style": "solid",
+          "thickness": 1
+        },
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "all": 0,
+          "isEnabled": true,
+          "shape": 0,
+          "type": "all"
+        },
+        "shadow": {
+          "angle": 135,
+          "blur": 10,
+          "color": "#444",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "center",
+          "width": 10
+        },
+        "snip": {
+          "horizontalSnipPosition": "right",
+          "isEnabled": false,
+          "snipSize": 30,
+          "verticalSnipPosition": "top"
+        },
+        "text": {
+          "fontColor": "#333333",
+          "fontFamily": "\"Segoe UI\", wf_segoe-ui_normal, helvetica, arial, sans-serif",
+          "fontSize": 12,
+          "horizontalAlign": "center",
+          "isBold": false,
+          "isEnabled": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "padding": {
+            "bottomPadding": 0,
+            "isCustomPaddingSize": false,
+            "isEnabled": true,
+            "leftPadding": 0,
+            "rightPadding": 0,
+            "topPadding": 0
+          },
+          "textRotation": 0,
+          "value": "",
+          "verticalAlign": "middle"
+        },
+        "tooltip": {
+          "content": "",
+          "isEnabled": true
+        }
+      },
+      "shapeType": "CIRCLE"
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "transparent",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#999999",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 0,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 0,
+        "rightPadding": 0,
+        "topPadding": 0
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 201
+  }
+}

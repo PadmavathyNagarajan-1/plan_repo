@@ -1,0 +1,714 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "advanceLookup": [],
+    "chartType": "COLUMN_VERTICAL",
+    "dimension": {
+      "height": 0.4781643286573147,
+      "width": 0.48734498834498835
+    },
+    "groupMeasureAssignments": [],
+    "groupName": "",
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [],
+        "isHidden": false,
+        "name": "Table"
+      },
+      "order": 1
+    },
+    "lockAspectRatio": false,
+    "mobileProperties": {},
+    "originEntityId": "2",
+    "pivotAssignments": [
+      {
+        "bucketId": "rows",
+        "columnName": "Segment",
+        "columnType": "Column",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "String",
+        "distinctValueCount": 5,
+        "formatString": "",
+        "id": "Financials[Segment]",
+        "isFlatHierarchy": false,
+        "name": "Segment",
+        "order": 0,
+        "sourceId": "Financials[Segment]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      },
+      {
+        "aggregationType": "sum",
+        "bucketId": "ameasure",
+        "columnName": "Sales",
+        "columnType": "Column",
+        "contents": "",
+        "customName": "Sum of Sales",
+        "dataRoleType": "Measure",
+        "dataType": "Double",
+        "distinctValueCount": 559,
+        "formatString": "",
+        "id": "Financials[Sales]",
+        "isFlatHierarchy": false,
+        "measureGuid": "4805647856864635772",
+        "name": "Sum of Sales",
+        "order": 0,
+        "sourceId": "Financials[Sales]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      },
+      {
+        "aggregationType": "sum",
+        "bucketId": "ameasure",
+        "columnName": "Profit",
+        "columnType": "Column",
+        "contents": "",
+        "customName": "Sum of Profit",
+        "dataRoleType": "Measure",
+        "dataType": "Double",
+        "distinctValueCount": 557,
+        "formatString": "",
+        "id": "Financials[Profit]",
+        "isFlatHierarchy": false,
+        "measureGuid": "9181823618397382026",
+        "name": "Sum of Profit",
+        "order": 1,
+        "sourceId": "Financials[Profit]",
+        "sourceType": "PowerBI",
+        "tableName": "Financials"
+      }
+    ],
+    "position": {
+      "x": 0.4517074592074592,
+      "y": 0.03433947895791583
+    },
+    "preVisualId": "9",
+    "shapeType": "RECTANGLE",
+    "sortingConfig": [],
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [
+      {
+        "bucketId": "rows",
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Segment",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "Financials[Segment]",
+              "columnName": "Segment",
+              "direction": "ASC",
+              "id": "Financials[Segment]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785598962415_1ua0ofwrl",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Segment",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 5,
+            "formatString": "",
+            "id": "Financials[Segment]",
+            "isFlatHierarchy": false,
+            "name": "Segment",
+            "order": 0,
+            "sourceId": "Financials[Segment]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "ameasure",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "advanced",
+          "filterOperator": "between",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Sum of Sales",
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "Financials[Sales]",
+              "columnName": "Sales",
+              "direction": "ASC",
+              "id": "Financials[Sales]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785598964996_t18wt0mir",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": true,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Segment",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 5,
+            "formatString": "",
+            "id": "Financials[Segment]",
+            "isFlatHierarchy": false,
+            "name": "Segment",
+            "order": 0,
+            "sourceId": "Financials[Segment]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          },
+          {
+            "aggregationType": "sum",
+            "bucketId": "ameasure",
+            "columnName": "Sales",
+            "columnType": "Column",
+            "contents": "",
+            "customName": "Sum of Sales",
+            "dataRoleType": "Measure",
+            "dataType": "Double",
+            "distinctValueCount": 559,
+            "formatString": "",
+            "id": "Financials[Sales]",
+            "isFlatHierarchy": false,
+            "name": "Sum of Sales",
+            "order": 0,
+            "sourceId": "Financials[Sales]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "ameasure",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "advanced",
+          "filterOperator": "between",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Sum of Profit",
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "Financials[Profit]",
+              "columnName": "Profit",
+              "direction": "ASC",
+              "id": "Financials[Profit]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1785598969935_4nykpv3fd",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": true,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "Segment",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 5,
+            "formatString": "",
+            "id": "Financials[Segment]",
+            "isFlatHierarchy": false,
+            "name": "Segment",
+            "order": 0,
+            "sourceId": "Financials[Segment]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          },
+          {
+            "aggregationType": "sum",
+            "bucketId": "ameasure",
+            "columnName": "Profit",
+            "columnType": "Column",
+            "contents": "",
+            "customName": "Sum of Profit",
+            "dataRoleType": "Measure",
+            "dataType": "Double",
+            "distinctValueCount": 557,
+            "formatString": "",
+            "id": "Financials[Profit]",
+            "isFlatHierarchy": false,
+            "name": "Sum of Profit",
+            "order": 1,
+            "sourceId": "Financials[Profit]",
+            "sourceType": "PowerBI",
+            "tableName": "Financials"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "transformMeasure": "none",
+    "visualInteractions": {},
+    "visualState": {
+      "aggregation_config": {
+        "measure_aggregation": {
+          "889310386447890199": {
+            "column": "Sum",
+            "row": "Formula"
+          }
+        },
+        "row_dimension_aggregation": {},
+        "row_measure_aggregation": {},
+        "row_member_measure_aggregation": {}
+      },
+      "columnDimensions": [],
+      "columnMeta": {
+        "11476068346938586669": {
+          "width": 95
+        },
+        "6158962175725977385": {
+          "width": 88
+        },
+        "8666495485533088944": {
+          "width": 174
+        },
+        "9919736974294975048": {
+          "width": 103
+        }
+      },
+      "commentsNotes": {
+        "commentsMap": {},
+        "createMode": false,
+        "creationType": null,
+        "globalNoteSettings": {
+          "floatSettings": {
+            "arrowColor": "#616161",
+            "arrowEnd": "arrow",
+            "arrowStyle": "solid",
+            "arrowWidth": 1,
+            "borderColor": "#E0E0E0",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "displayNoteAs": "markerText",
+            "dragLineType": "line",
+            "horizontalAlign": "start",
+            "shape": "rect",
+            "verticalAlign": "start"
+          },
+          "footNotes": {
+            "footNoteColumn": 3,
+            "footNoteHeight": 15
+          },
+          "hideAllNotes": false,
+          "indicator": {
+            "color": "#117865",
+            "fontSize": 12,
+            "position": "LEFT",
+            "size": 16,
+            "type": "number"
+          }
+        },
+        "modCommentaryId": "",
+        "noteCreateIndex": 1,
+        "tempIdMap": {}
+      },
+      "filterContextProperties": {
+        "filterContextDimensions": [],
+        "filterContextHash": null,
+        "filterContextHashMap": {},
+        "filterContextJson": {}
+      },
+      "gridStyles": {
+        "bottomSpace": 0,
+        "categoryLabelColor": "#DDDDDD",
+        "chartSpacing": true,
+        "columnSpacing": "off",
+        "columnSpacingValue": 5,
+        "compactSplitLine": true,
+        "compactSplitLineColor": "#D0D0D0",
+        "direction": "ltr",
+        "enableCategoryLabelColor": false,
+        "gridBackground": "#FFFFFF",
+        "gridBorderLineColor": "#A6A6A6",
+        "gridBorderLinePosition": null,
+        "gridBorderLineStyle": "solid",
+        "gridBorderLineWidth": 0,
+        "headerGridLines": true,
+        "horizontalMinorGridColor": "#E6E6E6",
+        "horizontalMinorGridLines": "solid",
+        "indentSpacing": 10,
+        "isLevelIndent": false,
+        "leftSpace": 0,
+        "lineStyleColor": "#666666",
+        "lineStyleFormat": "solid",
+        "majorGridColor": "#b0b0b0",
+        "majorGridLines": "off",
+        "rightSpace": 0,
+        "showColumnExpandCollapse": false,
+        "showExpandCollapse": true,
+        "showVAHighlight": true,
+        "titleAndChartSpace": 4,
+        "topSpace": 0,
+        "verticalMinorGridColor": "#E6E6E6",
+        "verticalMinorGridLines": "solid"
+      },
+      "locale": "en-US",
+      "manage_measures": [
+        {
+          "id": "4805647856864635772",
+          "label": "Sum of Sales",
+          "order": 0,
+          "role": "AC",
+          "visible": true
+        },
+        {
+          "id": "9181823618397382026",
+          "label": "Sum of Profit",
+          "order": 1,
+          "role": "others",
+          "visible": true
+        },
+        {
+          "id": "889310386447890199",
+          "label": "New Measure",
+          "order": 2,
+          "role": "",
+          "visible": true
+        }
+      ],
+      "miscellaneous": {
+        "enableFooter": false,
+        "enableReadViewBookmarking": false,
+        "featureFlags": "",
+        "footerText": "inforiver.com",
+        "footerUrl": "https://inforiver.com/",
+        "hideOnReadMode": false,
+        "isUserChangedFooter": false,
+        "pinIcon": "solid",
+        "showInfoRiverLogo": true,
+        "showTooltip": true
+      },
+      "notes": {
+        "customIcon": "CIRCLE_FILL",
+        "footNote": {
+          "footNoteColumn": 3,
+          "footNoteHeight": 15
+        },
+        "indicator": {
+          "color": "#117865",
+          "indicatorPositions": [
+            "left",
+            "center"
+          ],
+          "indicatorType": "numbered",
+          "size": 16
+        },
+        "markerSettings": {
+          "color": "red",
+          "strokeType": "solid",
+          "strokeWidth": 2,
+          "style": "freestyle"
+        },
+        "noteCreateIndex": 0,
+        "notes": [],
+        "persistProperties": {
+          "bgColor": "rgba(255,255,255,0.9)",
+          "borderColor": "rgba(3,169,244,0.7)",
+          "displayOptions": "4",
+          "iconColor": "rgb(18, 120, 100)",
+          "iconSize": "14",
+          "indicatorIcon": "CIRCLE_FILL",
+          "lineColor": "rgba(3,169,244,0.7)"
+        },
+        "reportSummaryNote": null,
+        "show": true
+      },
+      "page_config": {
+        "column_break": null,
+        "pagination_type": null,
+        "view": "Browser"
+      },
+      "pagination": {
+        "autoRowCount": "hide",
+        "currentPageNumber": 0,
+        "enable": false,
+        "pageNo": 0,
+        "pageRowCount": 10,
+        "paginationHeight": 20,
+        "view": "browser"
+      },
+      "ranking_config": {
+        "exemptions": {},
+        "others_title": "Others",
+        "rank_rules": [],
+        "show_category_suffix": false,
+        "show_others": true
+      },
+      "rowDimensions": [
+        {
+          "externalKey": "Financials[Segment]",
+          "id": "8666495485533088944",
+          "isNative": true,
+          "label": "Segment"
+        }
+      ],
+      "themeColors": {
+        "chartTheme": "trafficlights",
+        "enableRowHover": "rowAlternate",
+        "enableVarianceColor": false,
+        "invertVarianceColor": false,
+        "lineStyleRecentColor": "",
+        "measureOnlyHighlight": false,
+        "negativeColor": "#A60000",
+        "positiveColor": "#377D22",
+        "previousThemeType": "trafficlights",
+        "rowEvenColor": "#FFFFFF",
+        "rowHoverColor": "#fafafa",
+        "rowHoverTextColor": "#212121",
+        "rowOddColor": "#fafafa",
+        "tableThemeType": false,
+        "themeType": "trafficlights",
+        "valueColor": ""
+      },
+      "toolbar": {
+        "backupState": {},
+        "currentTab": "",
+        "enableHoverToolbar": true,
+        "hideDuplicateReportWarning": false,
+        "isPinned": false,
+        "readViewPin": true,
+        "setCanvasResize": false,
+        "showFloatingToolbar": true,
+        "showForecastTab": false,
+        "showMinimalTabEditMode": true,
+        "showMinimalView": true,
+        "showOnHover": true,
+        "showTabContent": true,
+        "toolbarTheme": "light"
+      },
+      "uiSettings": {
+        "aggregateOption": {
+          "avg": true,
+          "count": true,
+          "max": false,
+          "min": false,
+          "sum": true
+        },
+        "customScroll": false,
+        "dynamicRowIcon": false,
+        "enable": true,
+        "hideExpandLevel": {},
+        "scrollThickness": false,
+        "selectionBorder": true,
+        "showChildCount": false,
+        "showInfoRiverLogo": true,
+        "showRowDescendants": false,
+        "storedColumnTooltip": true
+      },
+      "visualStyles": {
+        "background": {
+          "backgroundColor": "#FFFFFF",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#999999",
+          "isEnabled": false,
+          "side": "all",
+          "width": 0
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "isTooltipEnabled": true,
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "isEnabled": false,
+          "transform": 0
+        },
+        "shadow": {
+          "angle": 135,
+          "blur": 8,
+          "color": "#0000003f",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "bottom",
+          "width": 0
+        },
+        "showHelperTooltips": true,
+        "showSelectedSeriesInTooltip": false,
+        "tooltipPageId": "auto",
+        "tooltipStyle": {
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "fontFamily": "Segoe UI",
+          "fontSize": 12,
+          "italic": false,
+          "labelColor": "#252423",
+          "underline": false,
+          "valueColor": "#252423"
+        },
+        "tooltipType": "default",
+        "varianceInTooltip": true,
+        "varianceTooltipType": "both"
+      }
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "#FFFFFF",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#999999",
+        "isEnabled": false,
+        "side": "all",
+        "width": 0
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 5,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 5,
+        "rightPadding": 5,
+        "topPadding": 5
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 15
+  }
+}

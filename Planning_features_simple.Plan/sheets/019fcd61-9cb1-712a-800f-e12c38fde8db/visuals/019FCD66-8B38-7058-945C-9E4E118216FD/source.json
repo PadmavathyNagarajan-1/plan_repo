@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/Source/1.0.0/schema.json",
+  "source": {
+    "connectionId": "14914193-5379-4043-bd39-769471b57e7f",
+    "connectionIdVariable": null,
+    "creationMode": 1,
+    "databaseVariable": null,
+    "dbHost": "aja2xwp3d2oudpulv4r6tqsk6e-6d5sq2r3ns5ebn75e4d5obfepq.database.fabric.microsoft.com",
+    "dbName": "sdb_pt_standalone-ecdd0ad4-2ffb-4f57-8c12-9589cf666702",
+    "fileImportType": null,
+    "meta": {
+      "databaseId": "ecdd0ad4-2ffb-4f57-8c12-9589cf666702",
+      "dbDisplayName": "sdb_pt_standalone",
+      "lastRowCountUpdatedAt": 1785857586,
+      "totalRows": 3,
+      "workspaceId": "6a28fbf0-6c3b-40ba-b7fd-2707d704a47c",
+      "workspaceName": "standaloneworkspace"
+    },
+    "recordGuid": "5FC48D88-1990-F111-B337-6045BD6D3407",
+    "schemaName": "dbo",
+    "sqlTargetArtifact": null,
+    "tableName": "test_pt_3",
+    "tableType": 1
+  }
+}
